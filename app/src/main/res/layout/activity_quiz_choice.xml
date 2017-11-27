@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aldhosutra.minemind.QuizChoice"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e91e63"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_fun"
+                android:scaleType="centerCrop"
+                android:alpha="0.15"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="32dp"
+                android:paddingLeft="32dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/tes3"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#ffffff"
+                    android:paddingBottom="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/sub_kuis1"
+                    android:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
+            android:paddingTop="32dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/please_choose1"
+                android:textColor="#e91e63"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:id="@+id/judul4"
+                android:layout_marginBottom="32dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:id="@+id/layQuiz1"
+                android:layout_below="@id/judul4"
+                android:layout_marginBottom="16dp"
+                android:background="#e91e63"
+                android:onClick="goToRWIntro">
+
+                <ImageView
+                    android:id="@+id/pic1"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/ic_compare"
+                    android:tint="#ffffff" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="32dp"
+                    android:background="#ffffff"
+                    android:layout_toRightOf="@id/pic1"
+                    android:id="@+id/view1"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kuisbenarsalah"
+                    android:id="@+id/btnGo1"
+                    android:background="#e91e63"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/view1"
+                    android:layout_centerVertical="true"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:id="@+id/layQuiz2"
+                android:layout_below="@id/layQuiz1"
+                android:layout_marginBottom="16dp"
+                android:background="#e91e63"
+                android:onClick="goToMCIntro">
+
+                <ImageView
+                    android:id="@+id/pic2"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/ic_check"
+                    android:tint="#ffffff" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="32dp"
+                    android:background="#ffffff"
+                    android:layout_toRightOf="@id/pic2"
+                    android:id="@+id/view2"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/multi_choice"
+                    android:id="@+id/btnGo2"
+                    android:background="#e91e63"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/view2"
+                    android:layout_centerVertical="true"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

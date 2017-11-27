@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aldhosutra.minemind.MCQuiz"
+    android:background="#e91e63">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_home"
+        android:layout_alignParentRight="true"
+        android:tint="#ffffff"
+        android:padding="8dp"
+        android:onClick="sureHome"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qNo"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:paddingTop="24dp"
+        android:id="@+id/judul1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/judul1"
+        android:id="@+id/layCount"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/noSoal"
+            android:textSize="32sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" / "
+            android:textSize="32sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:id="@+id/sumSoal"
+            android:textSize="32sp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layCount"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:paddingTop="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="soal"
+            android:textAllCaps="true"
+            android:id="@+id/soalMC"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:textColor="#ffffff" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/soalMC"
+            android:id="@+id/rdGroup1">
+            <!--android:background="#ffffff">-->
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilihan 1"
+                android:id="@+id/radio1"
+                android:background="@drawable/checkbox_selector"
+                android:textColor="@color/text_selector"
+                android:buttonTint="@color/colorMaterialPink"
+                android:padding="16dp" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilihan 2"
+                android:id="@+id/radio2"
+                android:background="@drawable/checkbox_selector"
+                android:textColor="@color/text_selector"
+                android:buttonTint="@color/colorMaterialPink"
+                android:padding="16dp"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilihan 3"
+                android:id="@+id/radio3"
+                android:background="@drawable/checkbox_selector"
+                android:textColor="@color/text_selector"
+                android:buttonTint="@color/colorMaterialPink"
+                android:padding="16dp"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilihan 4"
+                android:id="@+id/radio4"
+                android:background="@drawable/checkbox_selector"
+                android:textColor="@color/text_selector"
+                android:buttonTint="@color/colorMaterialPink"
+                android:padding="16dp"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilihan 5"
+                android:id="@+id/radio5"
+                android:background="@drawable/checkbox_selector"
+                android:textColor="@color/text_selector"
+                android:buttonTint="@color/colorMaterialPink"
+                android:padding="16dp"/>
+
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffc107"
+        android:id="@+id/lay2Button"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/next"
+            android:background="#ffc107"
+            android:id="@+id/btnNext"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

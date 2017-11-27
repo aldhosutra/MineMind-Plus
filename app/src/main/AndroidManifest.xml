@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aldhosutra.minemind">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_minemind_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_minemind_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.pushwoosh.appid" android:value="2347A-14DFF" />
+        <meta-data android:name="com.pushwoosh.senderid" android:value="A1046683011886" />
+
+        <activity
+            android:name=".splash"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/FullPrimary">
+
+        </activity>
+        <activity
+            android:name=".QuizChoice"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".RWIntro"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".RWQuiz"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".hasilRW"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".MCIntro"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".MCQuiz"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".PersonaChoice"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".MBTIIntro"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".MBTIQuiz"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".IQChoice"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".IQIntro"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".IQQuiz"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".hasilMBTI"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".hasilIQ"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".hasilMC"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".About"
+            android:theme="@style/FullPrimary" />
+        <activity
+            android:name=".intro"
+            android:label="@string/app_intro"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" />
+    </application>
+
+</manifest>

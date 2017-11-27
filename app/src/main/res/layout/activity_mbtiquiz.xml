@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aldhosutra.minemind.MBTIQuiz"
+    android:background="#e91e63">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_home"
+        android:layout_alignParentRight="true"
+        android:tint="#ffffff"
+        android:padding="8dp"
+        android:onClick="sureHome"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qNo"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:paddingTop="24dp"
+        android:id="@+id/judul1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/judul1"
+        android:id="@+id/layCount"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/noSoal"
+            android:textSize="32sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" / "
+            android:textSize="32sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60"
+            android:id="@+id/sumSoal"
+            android:textSize="32sp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layCount"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:paddingTop="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/whichOneFitYou"
+            android:id="@+id/judulQuizMBTI"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lay2Soal1"
+            android:layout_below="@id/judulQuizMBTI"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <TextView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:textSize="24sp"
+                android:text="A"
+                android:textColor="@color/colorMaterialPink"
+                android:textAlignment="center"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorMaterialPink"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="112dp"
+                android:layout_weight="1"
+                android:text="Soal A"
+                android:textColor="@color/colorMaterialPink"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif"
+                android:id="@+id/SoalA"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lay2Soal2"
+            android:layout_below="@id/lay2Soal1"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <TextView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:textSize="24sp"
+                android:text="B"
+                android:textColor="@color/colorMaterialPink"
+                android:textAlignment="center"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorMaterialPink"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="112dp"
+                android:layout_weight="1"
+                android:text="Soal B"
+                android:textColor="@color/colorMaterialPink"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif"
+                android:id="@+id/SoalB"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="soal"-->
+            <!--android:textSize="16sp"-->
+            <!--android:padding="16dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:textColor="#e91e63"-->
+            <!--android:textAlignment="center"-->
+            <!--android:id="@+id/soalRW"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lay2Soal2"
+            android:orientation="horizontal"
+            android:background="#ffc107"
+            android:id="@+id/lay2Button">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A"
+                android:background="#ffc107"
+                android:id="@+id/btnA"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="B"
+                android:background="#ffc107"
+                android:id="@+id/btnB"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

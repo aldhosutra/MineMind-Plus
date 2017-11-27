@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MineMind+</string>
+    <string name="tes1">INTELLIGENCE TEST</string>
+    <string name="tes2">PERSONALITY TEST</string>
+    <string name="tes3">FUN QUIZ</string>
+    <string name="please_choose1">Please Choose Quiz Mode</string>
+    <string name="sub_kuis1">Answer the questions and add your insight about human mind and brain, become smarter is always be cool :)</string>
+    <string name="kuisbenarsalah">Right Or Wrong Quiz</string>
+    <string name="multi_choice">Multiple Choice</string>
+    <string name="introQuiz">Let\'s Begin a Short Brief About This Quiz</string>
+    <string name="introRW">Is It Right or Wrong?</string>
+    <string name="introSubRW">In this mode 50 questions will be available with only two choices of answers, true or false. Any questions answered correctly will get +2 score, but be aware, any wrong answer will reduce your score -1. Your job is to conquer as many of these as possible and get the highest score. Wohoooo! By the way do not forget to read the unique facts that appear every time you answer the question, meaning that every question you answer really adds to your real knowledge points. :)</string>
+    <string name="letsgo">Let\'s Go!</string>
+    <string name="beatThis">How to Beat This Challenge?</string>
+    <string name="qNo">Question</string>
+    <string name="right">right</string>
+    <string name="wrong">wrong</string>
+    <string name="correctAnswer">Your Answer is Correct!</string>
+    <string name="wrongAnswer">Your Answer is Not Correct!</string>
+    <string name="soundsInteresting">Sound\'s Interesting!</string>
+    <string name="rwq1" formatted="false">Brain uses about 5% of total energy and oxygen.</string>
+    <string name="rwf1" formatted="false">In facts, The typical brain is about 2% of a body’s weight but uses 20% of its total energy and oxygen intake</string>
+    <string name="rwq2" formatted="false">Brain is 53% water.</string>
+    <string name="rwf2" formatted="false">In facts, Your brain is 73% water. It takes only 2% dehydration to affect your attention, memory and other cognitive skills</string>
+    <string name="rwq3" formatted="false">Brain is the fattiest organ</string>
+    <string name="rwf3" formatted="false">In facts, Your brain weighs about 3 pounds. Of that, the dry weight is 60% fat, making your brain the fattiest organ</string>
+    <string name="rwq4" formatted="false">Our Brain needs cholesterol</string>
+    <string name="rwf4" formatted="false">In facts, Twenty-five percent of the body’s cholesterol resides within the brain. Cholesterol is an integral part of every brain cell. Without adequate cholesterol, brain cells die. Obviously you must control your cholesterol.</string>
+    <string name="rwq5" formatted="false">Brain contain 1 million brain cells</string>
+    <string name="rwf5" formatted="false">In facts, our brain contain far more. No one knows for sure, but the latest estimate is that our brains contain roughly 86 billion brain cells</string>
+    <string name="rwq6" formatted="false">All brain cells are same</string>
+    <string name="rwf6" formatted="false">In facts, All brain cells are not alike. There are as many as 10,000 specific types of neurons in the brain</string>
+    <string name="rwq7" formatted="false">Adult brain grows faster than babies brain.</string>
+    <string name="rwf7" formatted="false">In facts, Babies have big heads to hold rapidly growing brains. A 2-year-old’s brain is 80% of adult size</string>
+    <string name="rwq8" formatted="false">Our brain move between cells faster than Formula 1 race</string>
+    <string name="rwf8" formatted="false">In facts, Brain information moves anywhere between 1 mph and an impressive 268 miles per hour. This is faster than Formula 1 race cars which top out at 240 mph</string>
+    <string name="rwq9" formatted="false">Our brain contain electricity</string>
+    <string name="rwf9" formatted="false">In facts, Your brain generates about 12-25 watts of electricity. This is enough to power a low wattage LED light</string>
+    <string name="rwq10" formatted="false">About 100,000 chemicals reactions take place in brain every second</string>
+    <string name="rwf10" formatted="false">In facts, More than 100,000 chemicals reactions take place in your brain every second</string>
+    <string name="rwq11" formatted="false">Female brain are bigger than men’s brain</string>
+    <string name="rwf11" formatted="false">In facts, generally men’s brains are 10% bigger than women’s, even after taking into account larger body size</string>
+    <string name="rwq12" formatted="false">Albert Einstein brain are bigger than average people brain</string>
+    <string name="rwf12" formatted="false">In facts, Albert Einstein’s brain weighed 2.71 pounds (1,230 grams) — 10% smaller than the average of 3 pounds (1,400 grams). However, the neuron density of his brain was greater than average</string>
+    <string name="rwq13" formatted="false">Human have the biggest brain among all creatures</string>
+    <string name="rwf13" formatted="false">In facts, Humans don’t have the biggest brains. That honor belongs to sperm whales with 17-pound brains</string>
+    <string name="rwq14" formatted="false">Multitask makes our brain work more productive</string>
+    <string name="rwf14" formatted="false">In facts, Multitasking makes you less productive. When you multitask, your brain simply rapidly toggles back and forth between tasks. This results in decreases in attention span, learning, performance, and short-term memory</string>
+    <string name="rwq15" formatted="false">Millennials people (aged 18 to 34) are less forgetful</string>
+    <string name="rwf15" formatted="false">In facts, Surprisingly, millennials (aged 18 to 34) are more forgetful than baby boomers. They are more likely to forget what day it is or where they put their keys than their parents</string>
+    <string name="rwq16" formatted="false">Brain cells cannibalize themselves</string>
+    <string name="rwf16" formatted="false">In facts, Brain cells cannibalize themselves as a last ditch source of energy to ward off starvation. So in very real ways dieting can force your brain to eat itself</string>
+    <string name="rwq17" formatted="false">Our brain can store unlimited information</string>
+    <string name="rwf17" formatted="false">In facts, Your brain’s storage capacity is considered virtually unlimited. It doesn’t get “used up” like RAM in your computer</string>
+    <string name="rwq18" formatted="false">We are only using 10% of our brains</string>
+    <string name="rwf18" formatted="false">The popular myth that we use only 10% of our brains is flat-out wrong. Brain scans clearly show that we use most of our brain most of the time, even when we’re sleeping</string>
+    <string name="rwq19" formatted="false">Left-brainded personality type are analytics person, and Right-brainded personality type are creative person</string>
+    <string name="rwf19" formatted="false">In facts, There is no such thing as a left-brain or right-brain personality type. We are not left-brained or right-brained; we are “whole brained.”</string>
+    <string name="rwq20" formatted="false">Our brain cells are far more than stars in the Milky Way</string>
+    <string name="rwf20" formatted="false">You may have heard that we have more brain cells than there are stars in the Milky Way, but this is not true. In facts, Best guess estimates are that we have 86 billion neurons and there are 200-400 billion stars in the Milky Way</string>
+    <string name="rwq21" formatted="false">Emotions can affects how accurately we remember something</string>
+    <string name="rwf21" formatted="false">In facts, Memories are shockingly unreliable. Emotions, motivation, cues, context and frequency of use can all affect how accurately you remember something</string>
+    <string name="rwq22" formatted="false">One Information to memorize are stored in one place in our brains</string>
+    <string name="rwf22" formatted="false">In facts, Memory is more of an activity than a place. Any given memory is deconstructed and distributed in different parts of the brain. Then, for the memory to be recalled, it gets reconstructed from the individual fragments</string>
+    <string name="rwq23" formatted="false">When we drunk, our brain is capable of forming memories</string>
+    <string name="rwf23" formatted="false">If you were drinking and don’t remember what you did last night, it’s not because you forgot. While you are drunk your brain is incapable of forming memories</string>
+    <string name="rwq24" formatted="false">Our brain are a solid organ</string>
+    <string name="rwf24" formatted="false">The human brain is not solid. It’s soft and squishy similar to the consistency of soft tofu or soft gelatin. And it’s very fragile</string>
+    <string name="rwq25" formatted="false">Life with half of our brain is impossible</string>
+    <string name="rwf25" formatted="false">Sometimes half a brain is a good as a whole one. When surgeons perform a hemispherectomy, they remove or disable half of the brain to stop seizures. Shockingly, patients experience no effect on personality or memory</string>
+    <string name="rwq26" formatted="false">Most of our decision are take place in our subconscious mind</string>
+    <string name="rwf26" formatted="false">Think you’re in control of your life? Think again. 95% of your decisions take place in your subconscious mind</string>
+    <string name="rwq27" formatted="false">Neurons in our body is only in our brain</string>
+    <string name="rwf27" formatted="false">The brain in your head isn’t your only brain. There’s a “second brain” in your intestines that contains 100 million neurons. Gut bacteria are responsible for making over 30 neurotransmitters including the “happy molecule” serotonin</string>
+    <string name="rwq28" formatted="false">Sleeping pills put our brain into state similar to being coma</string>
+    <string name="rwf28" formatted="false">Prescription sleeping pills don’t put you to sleep. They put your brain into a state similar to being in a coma, essentially bypassing any restorative value of sleep</string>
+    <string name="rwq29" formatted="false">Our cell phone can damage our brain</string>
+    <string name="rwf29" formatted="false">Over 140 proteins in the brain are negatively impacted by exposure to electromagnetic frequencies — the kind emitted by your cell phone and other electronic devices</string>
+    <string name="rwq30" formatted="false">When we feel pain, our brain is also feel the pain</string>
+    <string name="rwf30" formatted="false">Although pain is processed in your brain, your brain has no pain receptors and feels no pain. This explains how brain surgery can be performed while the patient is awake with no pain or discomfort</string>
+    <string name="rwq31" formatted="false">Children who learn to play a musical instrument are smarter</string>
+    <string name="rwf31" formatted="false">Most scientists argue that there is no evidence that playing classical music to babies increases the power of their mind. However, children who learn to play a musical instrument can develop their mental skills further than those who don’t learn a musical instrument</string>
+    <string name="rwq32" formatted="false">Feelings are part of our conscious mind</string>
+    <string name="rwf32" formatted="false">The conscious mind includes sensations, perceptions, memories, feelings, and fantasies inside of our current awareness. The preconscious mind includes those thoughts that we are thinking at the moment but can easily draw into our conscious mind. The subconscious mind is the psychic activity that operates below the level of awareness</string>
+    <string name="rwq33" formatted="false">Remember everything and never forget every single one is a good thing</string>
+    <string name="rwf33" formatted="false">Solomon Shereshevsky was a Russian journalist who couldn’t forget. He suffered from synesthesia, a phenomenon in which one sense (for example, vision) stimulates another sense (such as hearing). Solomon’s extreme synesthesia led him to taste, smell, and see vivid images in conjunction with numbers and sounds. Because a single word could trigger a flood of memories and associations, he had a difficult time reading a book or having a simple conversation</string>
+    <string name="rwq34" formatted="false">Recalls a memory in our brain is an act of creative reimagination and reconstruction</string>
+    <string name="rwf34" formatted="false">When the mind recalls a memory, it’s not the original memory. In fact, the act of remembering is an act of creative reimagination. The put-together memory doesn’t just have a few holes; it also has some entirely new bits pasted in</string>
+    <string name="rwq35" formatted="false">Repeated false question can create real false memory in out mind</string>
+    <string name="rwf35" formatted="false">Research has proven how easy it is to create false memories through the force of suggestion. Psychologists found that if they repeated questions and invited the mind to imagine sensory detail, a person would begin to believe it was an actual event.</string>
+    <string name="rwq36" formatted="false">Advertisers use mind illusions to make their products more appealing</string>
+    <string name="rwf36" formatted="false">For example, they produce condiment bottles with long necks because the mind is better at judging size than volume. Bottles of maple syrup are narrow at the base but bulge in the middle because that is where a person is most likely to look.</string>
+    <string name="rwq37" formatted="false">Internet are changing the structure of our brains, and change the mind ability to think and to learn</string>
+    <string name="rwf37" formatted="false">Specifically, the Internet overstimulates the part of the brain involved in temporary memory so that deep thinking and creativity become increasingly difficult.</string>
+    <string name="rwq38" formatted="false">Scent are bad memory triggers</string>
+    <string name="rwf38" formatted="false">Memories that are triggered by scent have some of the strongest emotional connections and appear more intense than other memory triggers</string>
+    <string name="rwq39" formatted="false">Depressed people dream often</string>
+    <string name="rwf39" formatted="false">Depressed people dream three times as much as people who are not sad</string>
+    <string name="rwq40" formatted="false">Looking to photo of loved one can be an analgesic</string>
+    <string name="rwf40" formatted="false">"looking at a photo of your loved one can reduce physical pain up to 44%. The effect is almost identical to that of a common analgesic. "</string>
+    <string name="rwq41" formatted="false">Video games can produce an heroin in our brain</string>
+    <string name="rwf41" formatted="false">Video games can produce an addiction as strong as heroin. Surely this has to do with the mechanisms that activate willpower, because the strength of willpower depends in great measure on the amount of oxygen and glucose within your brain</string>
+    <string name="rwq42" formatted="false">Human brain can distinguish fantasy and real experiences</string>
+    <string name="rwf42" formatted="false">Despite its great capacity, the human brain doesn’t have a good ability to distinguish between fantasy and real experiences. Thus, someone can experience a movie as if it were an event that happened in the real world. You can feel sadness, fear or enthusiasm the same way you would if you were truly experiencing that event</string>
+    <string name="rwq43" formatted="false">Our brain can’t feel what another person feel</string>
+    <string name="rwf43" formatted="false">Someone can physically feel a hit that another person receives, if this greatly impacts them emotionally. This is because there are cells in the brain called “mirror neurons” that reproduce the experience as if you were the one living it</string>
+    <string name="rwq44" formatted="false">Subconscious mind are more powerful than conscious mind</string>
+    <string name="rwf44" formatted="false">According to Dr. Bruce Lipton, the subconscious is 1-million times more powerful than the conscious mind. Tapping into the power of the subconscious mind should never ever be underestimated.</string>
+    <string name="rwq45" formatted="false">10 quadrillion operation per second is to much operation for our brain</string>
+    <string name="rwf45" formatted="false">The human brain is the universe\'s most powerful quantum processing supercomputer. The brain is capable of performing all sorts of complex simultaneous processes, even when (or especially when) we are asleep</string>
+    <string name="rwq46" formatted="false">Human mind can’t be programmed, it only flows itself</string>
+    <string name="rwf46" formatted="false">Hypnosis, NLP (Neuro Linguistic Programming) and other similar models are perfect examples of how this can be done effectively</string>
+    <string name="rwq47" formatted="false">It needs more than 30 minutes without oxygen to damage our brain</string>
+    <string name="rwf47" formatted="false">In facts, Only 5 minutes without oxygen can cause brain damage</string>
+    <string name="rwq48" formatted="false">We only produce about 100 thoughts per day through our brain.</string>
+    <string name="rwf48" formatted="false">In facts, The average brain is believed to generate around 50,000 thoughts per day. Disturbingly, it’s estimated that in most people 70% of these thoughts are negative</string>
+    <string name="rwq49" formatted="false">Our brain is larger than human 10,000 years ago</string>
+    <string name="rwf49" formatted="false">In facts, Our brains are getting smaller. Over the past 10-20,000 years, the size of the average human brain has shrunk by the size of a tennis ball</string>
+    <string name="rwq50" formatted="false">There are 10,000 miles of blood vessels in brain</string>
+    <string name="rwf50" formatted="false">It’s often said there are 10,000 miles of blood vessels in the brain when, in fact, that number is closer to 400 miles. Still a substantial amount</string>
+    <string name="introMC">Select One Best Answer</string>
+    <string name="introSubMC">In this mode, 10 questions will be available in multiple choice formats. Choose one of the five answers provided. Don\'t worry, this mode is very relaxed, because there is absolutely no score, and if you have not answered the question correctly, you can not continue to the next question. It\'s easy, right? Although it is easy, hopefully you can get new knowledge by doing this quiz :)</string>
+    <string name="exitDialog">Are you sure want to quit from this quiz?</string>
+    <string name="yesDialog">Yes</string>
+    <string name="noDialog">No</string>
+    <string name="congratsQuizDone">Congratulations! You Completed This Challenge!</string>
+    <string name="next">Next</string>
+    <string name="mcq1" formatted="false">The Brain Uses What Percentage Of The Body\'s Energy?</string>
+    <string name="mcA1" formatted="false">2%</string>
+    <string name="mcB1" formatted="false">10%</string>
+    <string name="mcC1" formatted="false">20%</string>
+    <string name="mcD1" formatted="false">50%</string>
+    <string name="mcE1" formatted="false">60%</string>
+    <string name="mcB2" formatted="false">Gilal Cells</string>
+    <string name="mcA2" formatted="false">Dura Mater</string>
+    <string name="mcC2" formatted="false">Nerve Cells</string>
+    <string name="mcD2" formatted="false">Kapiler</string>
+    <string name="mcE2" formatted="false">Astroglia</string>
+    <string name="mcq2" formatted="false">What Is Not Found In Grey Matter, Which Is A Major Component Of The Brain?</string>
+    <string name="mcA3" formatted="false">It Is The Primary Source Of Intelligence</string>
+    <string name="mcB3" formatted="false">It Is Located Mainly In The Frontal Lobes</string>
+    <string name="mcC3" formatted="false">It Processes Information</string>
+    <string name="mcD3" formatted="false">It Is The Dominant Type Of Nervous Tissue In The Brain</string>
+    <string name="mcE3" formatted="false">It Primary Color Is Grey</string>
+    <string name="mcq3" formatted="false">Which Statement Is True Of Grey Matter?</string>
+    <string name="mcA4" formatted="false">Cerebellum</string>
+    <string name="mcB4" formatted="false">Brain Stem</string>
+    <string name="mcC4" formatted="false">Foramen Magnum</string>
+    <string name="mcD4" formatted="false">Cerebrum</string>
+    <string name="mcE4" formatted="false">Nerve Cells</string>
+    <string name="mcq4" formatted="false">What Is Not A Part Of The Brain?</string>
+    <string name="mcA5" formatted="false">Frontal Lobe</string>
+    <string name="mcB5" formatted="false">Cerebellum</string>
+    <string name="mcC5" formatted="false">Parietal Lobe</string>
+    <string name="mcD5" formatted="false">Temporal Lobe</string>
+    <string name="mcE5" formatted="false">Occipital Lobes</string>
+    <string name="mcq5" formatted="false">Which Area Of The Brain Is Not Part Of The Cerebral Cortex?</string>
+    <string name="mcA6" formatted="false">Left Parietal Lobe</string>
+    <string name="mcB6" formatted="false">Left Frontal Lobe</string>
+    <string name="mcC6" formatted="false">Right Temporal Lobe</string>
+    <string name="mcD6" formatted="false">Right Frontal Lobe</string>
+    <string name="mcE6" formatted="false">Middle Frontal Lobe</string>
+    <string name="mcq6" formatted="false">Middle Frontal Lobe</string>
+    <string name="mcA7" formatted="false">Wernicke\'s Area</string>
+    <string name="mcB7" formatted="false">Circle Of Willis</string>
+    <string name="mcC7" formatted="false">Hersch\'s Gyrus</string>
+    <string name="mcD7" formatted="false">Schwann\'s Cells</string>
+    <string name="mcE7" formatted="false">All Answer Wrong</string>
+    <string name="mcq7" formatted="false">Which Part Of The Brain Is Important For Language Comprehension?</string>
+    <string name="mcA8" formatted="false">Recognising Shapes</string>
+    <string name="mcB8" formatted="false">Dressing</string>
+    <string name="mcC8" formatted="false">Doing Arithmetic</string>
+    <string name="mcD8" formatted="false">Writing</string>
+    <string name="mcE8" formatted="false">Planning Task</string>
+    <string name="mcq8" formatted="false">Which Task Would Not Be Affected By Damage To The Right Parietal Lobe?</string>
+    <string name="mcA9" formatted="false">Pons</string>
+    <string name="mcB9" formatted="false">Medulla</string>
+    <string name="mcC9" formatted="false">Hypothalamus</string>
+    <string name="mcD9" formatted="false">Thalamus</string>
+    <string name="mcE9" formatted="false">Zeus</string>
+    <string name="mcq9" formatted="false">What Part Of The Brain Stem Regulates Your Heartbeat?</string>
+    <string name="mcA10" formatted="false">Facial</string>
+    <string name="mcB10" formatted="false">Abducens</string>
+    <string name="mcC10" formatted="false">Trochlear</string>
+    <string name="mcD10" formatted="false">Trigeminal</string>
+    <string name="mcE10" formatted="false">All Answer Wrong</string>
+    <string name="mcq10" formatted="false">Which Cranial Nerve Allows Us To Chew Food?</string>
+    <string name="sorryIncorrect">Sorry, your answer is Incorrect, don\'t give up :(</string>
+    <string name="wowCorrect">Wow, your answer are Correct, you are superb! :)</string>
+    <string name="judulPersona">Personality Test</string>
+    <string name="subJudulPersona">Know yourself deeper in personality, and open your maximum potential. This personality test is compiled with a standard that has been widely used, so you do not have to hesitate :)</string>
+    <string name="chooseStandard">Please Choose Quiz Standard</string>
+    <string name="MBTI">MBTI Personality Test</string>
+    <string name="mbtiIntroText">In this mode, you will be presented with 60 questions, where each question will be listed a statement. Your job is to choose the statement that best suits your personality, of course the more you are honest in this test, the more accurate the results. After the question is complete, then your personal results will be instantly displayed on the screen, Hurray! :)</string>
+    <string name="MBTIHead">Know Yourself Better, With MBTI Standard</string>
+    <string name="whichOneFitYou">Which Statement Fit Your Personality?</string>
+    <string name="mbtiA1" formatted="false">Spontaneous, Flexible, not time-bound</string>
+    <string name="mbtiA2" formatted="false">Prefer communicate with writing</string>
+    <string name="mbtiA3" formatted="false">Dislikes things that are sudden and out of planning</string>
+    <string name="mbtiA4" formatted="false">Objective</string>
+    <string name="mbtiA5" formatted="false">Find and develop ideas by discussing them</string>
+    <string name="mbtiA6" formatted="false">Moves from the new overview to detail</string>
+    <string name="mbtiA7" formatted="false">Oriented to the external world (activities, people)</string>
+    <string name="mbtiA8" formatted="false">Talk about the problems faced today and practical steps to overcome them</string>
+    <string name="mbtiA9" formatted="false">Convinced with a touching explanation</string>
+    <string name="mbtiA10" formatted="false">Focus on a little hobby but deep</string>
+    <string name="mbtiA11" formatted="false">Closed and independent</string>
+    <string name="mbtiA12" formatted="false">Rules, schedules and targets are very binding and burdensome</string>
+    <string name="mbtiA13" formatted="false">Use experience as a guide</string>
+    <string name="mbtiA14" formatted="false">Task-oriented and job description</string>
+    <string name="mbtiA15" formatted="false">Meeting with other people and social activities is tiring</string>
+    <string name="mbtiA16" formatted="false">Standard Operational Procedure is helpful</string>
+    <string name="mbtiA17" formatted="false">Make decisions based on logic and rules</string>
+    <string name="mbtiA18" formatted="false">Free and dynamic</string>
+    <string name="mbtiA19" formatted="false">Results-oriented</string>
+    <string name="mbtiA20" formatted="false">Activity alone at home is fun</string>
+    <string name="mbtiA21" formatted="false">Allowing others to act freely as long as the goal is achieved</string>
+    <string name="mbtiA22" formatted="false">Choosing inspirational ideas is more important than fact</string>
+    <string name="mbtiA23" formatted="false">Bring out goals and goals first</string>
+    <string name="mbtiA24" formatted="false">Focus on the target and ignore the new things</string>
+    <string name="mbtiA25" formatted="false">Continuity and stability are preferred</string>
+    <string name="mbtiA26" formatted="false">The establishment can still change depending on the situation later</string>
+    <string name="mbtiA27" formatted="false">Act step by step with a clear timeframe</string>
+    <string name="mbtiA28" formatted="false">High initiative almost in many ways though not related to him</string>
+    <string name="mbtiA29" formatted="false">Prefer a quiet and private place to concentrate</string>
+    <string name="mbtiA30" formatted="false">Analyze</string>
+    <string name="mbtiA31" formatted="false">Think carefully before acting</string>
+    <string name="mbtiA32" formatted="false">Appreciate someone because of his nature and his behavior</string>
+    <string name="mbtiA33" formatted="false">Feel comfortable when the situation remains open to other choices</string>
+    <string name="mbtiA34" formatted="false">Drawing conclusions with old and careful</string>
+    <string name="mbtiA35" formatted="false">Express the spirit</string>
+    <string name="mbtiA36" formatted="false">Clarify ideas and theories before they are put into practice</string>
+    <string name="mbtiA37" formatted="false">Engaging that feeling is not professional</string>
+    <string name="mbtiA38" formatted="false">Seeking opportunities to communicate individually</string>
+    <string name="mbtiA39" formatted="false">The important situation harmoniously awake</string>
+    <string name="mbtiA40" formatted="false">Uncertainty is exciting, tense and makes the heart more happy</string>
+    <string name="mbtiA41" formatted="false">Focus on the present (what can be improved now)</string>
+    <string name="mbtiA42" formatted="false">Questioning</string>
+    <string name="mbtiA43" formatted="false">Consistently observe and remember details</string>
+    <string name="mbtiA44" formatted="false">The last minute situation creates excitement and generates potential</string>
+    <string name="mbtiA45" formatted="false">Prefer indirect communication (phone, mail, e-mail)</string>
+    <string name="mbtiA46" formatted="false">Practical</string>
+    <string name="mbtiA47" formatted="false">Change is the enemy</string>
+    <string name="mbtiA48" formatted="false">Often considered stubborn</string>
+    <string name="mbtiA49" formatted="false">Eager to help people get out of error and straighten</string>
+    <string name="mbtiA50" formatted="false">Act according to the situation and conditions that occurred at that time</string>
+    <string name="mbtiA51" formatted="false">Using skills that have been mastered</string>
+    <string name="mbtiA52" formatted="false">Building ideas while talking</string>
+    <string name="mbtiA53" formatted="false">Choose an existing and proven way</string>
+    <string name="mbtiA54" formatted="false">Life must be set from scratch</string>
+    <string name="mbtiA55" formatted="false">Standards must be upheld above all (it shows honor and dignity)</string>
+    <string name="mbtiA56" formatted="false">Checklists and checklists are important guides</string>
+    <string name="mbtiA57" formatted="false">Demands fair and equal treatment for all people</string>
+    <string name="mbtiA58" formatted="false">Concern about cause and effect</string>
+    <string name="mbtiA59" formatted="false">Satisfied when able to adapt to the momentum that occurs</string>
+    <string name="mbtiA60" formatted="false">Spontaneous, Easy Going, flexible</string>
+    <string name="mbtiB1" formatted="false">Planned and have clear deadlines</string>
+    <string name="mbtiB2" formatted="false">Prefer communicate with talk</string>
+    <string name="mbtiB3" formatted="false">Sudden change does not matter</string>
+    <string name="mbtiB4" formatted="false">Subjective</string>
+    <string name="mbtiB5" formatted="false">Find and develop ideas by contemplating</string>
+    <string name="mbtiB6" formatted="false">Moves from detail to the general picture as the final conclusion</string>
+    <string name="mbtiB7" formatted="false">Oriented to the internal world (memory, thought, idea)</string>
+    <string name="mbtiB8" formatted="false">Talking about the vision of the future and the concepts of that vision</string>
+    <string name="mbtiB9" formatted="false">Convinced with plausible explanations</string>
+    <string name="mbtiB10" formatted="false">Focus on many hobbies widely and generally</string>
+    <string name="mbtiB11" formatted="false">Social and expressive</string>
+    <string name="mbtiB12" formatted="false">Rules, schedules and targets will be helpful and clarify actions</string>
+    <string name="mbtiB13" formatted="false">Use imagination and contemplation as a guide</string>
+    <string name="mbtiB14" formatted="false">Human-oriented and relationships</string>
+    <string name="mbtiB15" formatted="false">Meet people and social activities to get excited</string>
+    <string name="mbtiB16" formatted="false">Standard Operational Procedure is very boring</string>
+    <string name="mbtiB17" formatted="false">Make decisions based on the personal feelings and conditions of others</string>
+    <string name="mbtiB18" formatted="false">Procedural and traditional</string>
+    <string name="mbtiB19" formatted="false">Process oriented</string>
+    <string name="mbtiB20" formatted="false">Activity alone at home is boring</string>
+    <string name="mbtiB21" formatted="false">Organize others in order to achieve goals</string>
+    <string name="mbtiB22" formatted="false">Choosing a fact is more important than an inspirational idea</string>
+    <string name="mbtiB23" formatted="false">Make a deal first</string>
+    <string name="mbtiB24" formatted="false">Pay attention to new things and be ready to adjust and change the target</string>
+    <string name="mbtiB25" formatted="false">Changes and variations take precedence</string>
+    <string name="mbtiB26" formatted="false">Hold on to the establishment</string>
+    <string name="mbtiB27" formatted="false">Acting with passion without using timeframe</string>
+    <string name="mbtiB28" formatted="false">Take the initiative when the situation forces or deals with their own interests</string>
+    <string name="mbtiB29" formatted="false">Prefer a crowded place and lots of interaction / activity</string>
+    <string name="mbtiB30" formatted="false">Empathize</string>
+    <string name="mbtiB31" formatted="false">Dare to act without too long thinking</string>
+    <string name="mbtiB32" formatted="false">Appreciate someone because of skill and technical factors</string>
+    <string name="mbtiB33" formatted="false">Feel calm when all is decided</string>
+    <string name="mbtiB34" formatted="false">draw conclusions quickly according to instinct</string>
+    <string name="mbtiB35" formatted="false">Keep the spirit in your heart</string>
+    <string name="mbtiB36" formatted="false">Understand ideas and theories when putting them into practice</string>
+    <string name="mbtiB37" formatted="false">Too rigid on rules and work is cruel</string>
+    <string name="mbtiB38" formatted="false">Choosing to communicate with a group of people</string>
+    <string name="mbtiB39" formatted="false">The important goal is achieved</string>
+    <string name="mbtiB40" formatted="false">Uncertainty creates confusion and distress</string>
+    <string name="mbtiB41" formatted="false">Focusing on the future (what might be achieved in the future)</string>
+    <string name="mbtiB42" formatted="false">Accommodating</string>
+    <string name="mbtiB43" formatted="false">Observe and remember details only when it comes to patterns</string>
+    <string name="mbtiB44" formatted="false">The last minute situation is torturous, stressful and error</string>
+    <string name="mbtiB45" formatted="false">Prefer to direct communication (face-to-face)</string>
+    <string name="mbtiB46" formatted="false">Conceptual</string>
+    <string name="mbtiB47" formatted="false">Change is the spirit of life</string>
+    <string name="mbtiB48" formatted="false">Often considered too impartial</string>
+    <string name="mbtiB49" formatted="false">Eager to criticize and find mistakes</string>
+    <string name="mbtiB50" formatted="false">Act according to what has been planned</string>
+    <string name="mbtiB51" formatted="false">Loves the challenge of mastering new skills</string>
+    <string name="mbtiB52" formatted="false">Build a new idea carefully talking about it</string>
+    <string name="mbtiB53" formatted="false">Choose a unique way and not yet practiced by others</string>
+    <string name="mbtiB54" formatted="false">Life should flow according to conditions</string>
+    <string name="mbtiB55" formatted="false">Human feelings are more important than mere standards (which are inanimate)</string>
+    <string name="mbtiB56" formatted="false">Lists and checklists are tasks and loads</string>
+    <string name="mbtiB57" formatted="false">Demanding special treatment according to the characteristics of each person</string>
+    <string name="mbtiB58" formatted="false">Stress personal values</string>
+    <string name="mbtiB59" formatted="false">Satisfied when able to run everything according to plan</string>
+    <string name="mbtiB60" formatted="false">Cautious, thoughtful, rigid</string>
+    <string name="subIQChoice">Test your basic intellectual abilities with standards that have been developed by experts.</string>
+    <string name="judulCRT">Cognitive vs Intuitive Thinking</string>
+    <string name="subsubCRT">Cognitive Reflection Test is a FASTEST IQ test in the world! CRT consists of only 3 questions, and is able to measure our tendency in thinking, cognitive or intuitive. This test was developed by Dr. Frederick. Too easy? do not be cocky first, prove you can answer this simple question! :)</string>
+    <string name="answerThese">Answer These Question Carefully!</string>
+    <string name="yourAnswer">Your Answer:</string>
+    <string name="areYouSure">Are You Sure With Your Answer?</string>
+    <string name="crtq1">A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost? _____ cents</string>
+    <string name="crtq2">If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets? _____ minutes</string>
+    <string name="crtq3">In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake? _____ days</string>
+    <string name="noNullInput">Field Cannot be Empty</string>
+
+    <!--<! - ISTJ ->-->
+    <string name = "istj_sifat"> Serious, calm, stable, and peaceful. Pleased on facts, logical, objective, practical, and realistic. Task oriented, diligent, organized, keeping promises, reliable, and responsible. A good listener, faithful, just sharing with people close. Stick to rules, standards, and procedures. </string>
+    <string name = "istj_saranp"> Learn to understand the feelings and needs of others. Reduce the desire to control others or order them to enforce the rules. Look at more positive sides to others or other things. Be open to changes. </string>
+    <string name = "istj_saranf"> Field Management, Police, Intelligence, Judge, Lawyer, Doctor, Accountant (Finance Staff), Programmer or IT-related, System Analys, Military Leader </string>
+    <string name = "istj_partner"> ESFP or ESTP </string>
+    <string name = "istj_ket"> "Responsible" </string>
+
+    <!--<! - ISFJ ->-->
+    <string name = "isfj_sifat"> Full consideration, careful, thorough and accurate. Serious, calm, stable but sensitive. Friendly, attentive to the feelings and needs of others, loyal, cooperative, good listener. Have the ability to organize, detail, thorough, very responsible and reliable. </string>
+    <string name = "isfj_saranp"> See deeper, more enthusiastic, and more spirit. Learn to say AtidakA. Do not please everyone or you are considered a plin plan. Do not get caught in the comfort zone and routine. Try new things. There are many fun things you may not have tried. </string>
+    <string name = "isfj_saranf"> Architect, Interior Designer, Nurse, Administrative, Designer, Child Care, Counselor, Back Office Manager, Shopkeeper / Library, World of Hospitality. </string>
+    <string name = "isfj_partner"> ESFP or ESTP </string>
+    <string name = "isfj_ket"> "faithful" </string>
+
+    <!--<! - ISTP ->-->
+    <string name = "istp_sifat"> Quiet, quiet, tend to be stiff, cool, cautious, full of consideration. Logical, rational, critical, objective, able to put aside feelings. Able to deal with sudden changes quickly and calmly. Confident, firm and able to face differences and criticism. Be able to analyze, organize, and delegate. Problem solver is good especially for technical problems and sudden state. </string>
+    <string name = "istp_saranp"> Observe social life, what makes people angry, love, happy, motivated and apply to your relationship. Learn to recognize your feelings and express them. Be a more open person, get out of the comfort zone, explore new ideas, and discuss with others. Do not look around for people\'s mistakes just to solve the problem. Do not store information that should be shared and learn to entrust responsibility to others. </string>
+    <string name = "istp_saranf"> Police, Forensic Expert, Programmer, Computer Expert, System Analyst, Technician, Engineer, Mechanical, Pilot, Athlete, Entrepreneur </string>
+    <string name = "istp_partner"> ESTJ or ENTJ </string>
+    <string name = "istp_ket"> "Pragmatic" </string>
+
+    <!--<! - ISFP ->-->
+    <string name = "isfp_sifat"> Simple and practical thinking, flexible, sensitive, friendly, self-effacing, humble to his abilities. Avoiding conflict, not forcing opinions or values ​​on others. Usually do not want to lead but become faithful followers and implementers. Often relaxed getting things done, because they really enjoy what\'s happening right now. Shows more attention through actions than words. </string>
+    <string name = "isfp_saranp"> Do not be afraid of rejection and conflict. You do not have to please everyone. Try to start thinking about the long-term impact of small decisions today. Sharpen and develop the side of creativity and art within you as a good capital in you. Try to be more open and express your feelings. </string>
+    <string name = "isfp_saranf"> Artists, Designers, Social Workers, Counselors, Psychologists, Teachers, Actors, Hospitality Sector </string>
+    <string name = "isfp_partner"> ESFJ or ENFJ </string>
+    <string name = "isfp_ket"> "Artistic" </string>
+
+    <!--<! - INFJ ->-->
+    <string name = "infj_sifat"> Attention, empathy, sensitive and committed to a relationship. Success because of diligence, originality and a strong desire to do whatever is necessary including giving the best in the job. Idealist, perfectionist, adhering to the principle. Visionary, full of ideas, creative, thoughtful and inspiring. Usually followed and respected for clarity of vision and dedication to good things. </string>
+    <string name = "infj_saranp"> Balance your point of view. Do not just look at the negative side and risk. However, look at the positive side and opportunities. Be patient, do not get angry and blame others or situations. Relax and do not constantly think or complete responsibilities. </string>
+    <string name = "infj_saranf"> Educator, Psychologist, Doctor, Counselor, Social Worker, Photographer, Artist, Designer, Child Care. </string>
+    <string name = "infj_partner"> ESFP or ESTP </string>
+    <string name = "infj_ket"> "Reflective" </string>
+
+    <!--<! - INTJ ->-->
+    <string name = "intj_sifat"> Visionary, has practical planning, and usually has original ideas and a strong drive to achieve them. Independent and confident. Have good analytical skills and simplify something complicated and abstract into something practical, easy to understand and practice. Skeptical, critical, logical, determinative and sometimes stubborn. Have a desire to grow and always want to be more advanced from others. Criticism and conflict do not matter much. </string>
+    <string name = "intj_saranp"> Learn to express your emotions and feelings. Try to be more open to the outside world, lots of hanging out, learning a lot, reading lots, visiting lots of places, exploring new things, and broadening insights. Avoid unnecessary debate. Learn to empathize, pay attention and be more sensitive to others. </string>
+    <string name = "intj_saranf"> Researchers, Scientists, Engineers, Technicians, Teachers, Professors, Doctors, Research and Development, Business Analysts, System Analysts, Lawyers, Judges, Programmers, Strategic Positions in organizations. </string>
+    <string name = "intj_partner"> ENFP or ENTP </string>
+    <string name = "intj_ket"> "Independent" </string>
+
+    <!--<! - INFP ->-->
+    <string name = "infp_sifat"> Very considerate and sensitive to other people\'s feelings. Full of enthusiasm and loyalty, but usually only for close people. Caring for many things. Tends to take too much and partially complete. Tend to be idealist and perfectionist. Think win-win solution, trust and optimize others. </string>
+    <string name = "infp_saranp"> Learn to face criticism. If good then the criticism can build you, but if not ignore it. Do not hesitate to ask questions and ask for advice. Learn to be assertive. Do not always feel and delight people with good actions. Act well is different from acting right. Do not be too blame yourself and be too hard on yourself. Failure is common and everyone has experienced it. Do not be too good on others but forget yourself. You also have a responsibility to do good to yourself. </string>
+    <string name = "infp_saranf"> Author, Sastrawan, Counselor, Psychologist, Teacher, Artist, Spirituality, Hospitality Sector </string>
+    <string name = "infp_partner"> ENFJ or ESFJ </string>
+    <string name = "infp_ket"> "Idealis" </string>
+
+    <!--<! - INTP ->-->
+    <string name = "intp_sifat"> Highly appreciate intellectuality and knowledge. Enjoy theoretical and scientific things. Nice to solve problems with logic and analysis. Silence and restraint. Prefer working alone. Tend to be critical, skeptical, suspicious and pessimistic. Dislikes to lead and can be a less demanding follower. Tend to have a clear interest. Need a career where interest can be developed and useful. If he finds something that interests him, he will be very serious and enthusiastic about it. </string>
+    <string name = "intp_saranp"> Learn to build relationships with others. Learn to empathize, listen actively, give attention and exchange opinions. Relax. Do not think too much. Enjoy your life without having to ask why and how. Try to find one idea, plan it and make it happen. Do not switch ideas too many times, but nothing happens. </string>
+    <string name = "intp_saranf"> Scientist, Photographer, Programmer, Computer Expert, System Analyst, Technical Book Writer, Forensic Expert, Attorney, Lawyer, Technician </string>
+    <string name = "intp_partner"> ENTJ or ESTJ </string>
+    <string name = "intp_ket"> "Conceptual" </string>
+
+    <!--<! - ESTP ->-->
+    <string name = "estp_sifat"> Spontaneous, Active, Energetic, Sticky, Fast, Spry, Enthusiastic, Fun and full of variety. Communicators, assertive, to the point, ceplas-ceplos, charismatic, have good interpersonal skills. Good in troubleshooting directly on the spot. Able to deal with problems, conflicts and criticism. No worries, enjoy whatever happens. Tends to like something mechanistic, shared activities and sports. Easily adaptable, tolerant, generally conservative about values. Disliked explanation is too long. Best in real things that can be done. </string>
+    <string name = "estp_saranp"> Learn to understand the feelings and thoughts of others especially when talking to them. Learn to be patient, enjoy the process, not all things can be achieved quickly. Occasionally take time to reflect and plan for your future. Try to record your observations including details. </string>
+    <string name = "estp_saranf"> Marketing, Sales, Police, Entrepreneur, Stock Broker, Technical Support </string>
+    <string name = "estp_partner"> ISFJ or ISTJ </string>
+    <string name = "estp_ket"> "spontaneous" </string>
+
+    <!--<! - ESFP ->-->
+    <string name = "esfp_sifat"> Outgoing, easygoing, easy going friends, friendly, very social, friendly, warm and fun. Optimistic, cheerful, enthusiastic, fun, entertaining, likes to be considerate. Have good interpersonal skills, generous, easy sympathetic and recognize the feelings of others. Avoiding conflict and maintaining harmony of a relationship. Know what\'s going on around it and participate in the activity. Excellent in circumstances that require common sense, quick action and practical skills. </string>
+    <string name = "esfp_saranp"> Do not be in a hurry to make a decision. Learn to focus and not easily change especially for the important thing. Do not please everyone. And vice versa, not everyone can please you. Learn to face criticism and conflict. Do not run. You have a tendency meterialistis. Be careful not everything can be measured with material or money. </string>
+    <string name = "esfp_saranf"> Entertainer, Artist, Marketing, Counselor, Designer, Tour Guide, Children\'s Field, Hospitality Sector </string>
+    <string name = "esfp_partner"> ISTJ or ISFJ </string>
+    <string name = "esfp_ket"> "Generous Heart" </string>
+
+    <!--<! - ENFP ->-->
+    <string name = "enfp_sifat"> Friendly, warm, energetic, optimistic, enthusiastic, high spirit, fun. Imaginative, full of ideas, creative, innovative. Be able to adapt to various situations and changes. Good at communicating, happy to socialize and bring a positive atmosphere. Easily read the feelings and needs of others. </string>
+    <string name = "enfp_saranp"> Learn to focus, be disciplined, firm and consistent. Learn to deal with conflict and criticism. Think of your own needs. Do not forget it because it is too concerned with the needs of others. Do not be too extravagant. Learn to manage finances little by little. </string>
+    <string name = "enfp_saranf"> Counselor, Psychologist, Entertainer, Teacher, Motivator, Presenter, Reporter, MC, Artist, Hospitality </string>
+    <string name = "enfp_partner"> INTJ or INFJ </string>
+    <string name = "enfp_ket"> "Optimistic" </string>
+
+
+    <!--<! - ENTP ->-->
+    <string name = "entp_sifat"> Agile, creative, innovative, ingenious, logical, good in many ways. Lots of talk and good debate skills. Can argue for pleasure without feeling guilty. Flexible. Have many ways to solve problems and challenges. Less consistent. Tend to do exciting new things after doing something else. Have a strong desire to develop yourself. </string>
+    <string name = "entp_saranp"> Try to win-win solution. Do not want to win alone. Learn to be disciplined and consistent. Avoid unnecessary debate. Learn to be a bit wary. Balance your point of view from being overly optimistic and taking unrealistic risks. Learn to pay attention to other people\'s feelings. </string>
+    <string name = "entp_saranf"> Lawyer, Psychologist, Consultant, Scientist, Actor, Marketing, Programmer, Photographer </string>
+    <string name = "entp_partner"> INFJ or INTJ </string>
+    <string name = "entp_ket"> "Innovative - Creative" </string>
+
+
+    <!--<! - ESTJ ->-->
+    <string name = "estj_sifat"> Practical, realistic, sticking to the facts, with a natural drive for business and mechanistic. Very systematic, procedural and planned. Discipline, on time and hardworking. Conservative and tend to be stiff. Not interested in subjects that are not useful to him, but can adjust if necessary. Nice to organize something. Can be a good administrator if they remember to pay attention to the feelings and perspectives of others. </string>
+    <string name = "estj_saranp"> Reduce the desire to control and force others. Learn to control your emotions and anger. Try to introspect yourself and take a moment to contemplate. Learn to be more patient and low profile. Learn to understand others. </string>
+    <string name = "estj_saranf"> Military, Manager, Police, Judge, Lawyer, Teacher, Sales, Auditor, Accountant, System Analyst </string>
+    <string name = "estj_partner"> ISTP or INTP </string>
+    <string name = "estj_ket"> "Conservative - Discipline" </string>
+
+
+    <!--<! - ESFJ ->-->
+    <string name = "esfj_sifat"> Warm, talkative, popular, born to cooperate, supportive and active group members. Requires balance and good in creating harmony. Always do something sweet for others. Work well in situations that support and praise him. Relaxing, easy going, simple, not thinking long. Thorough and diligent care for what he has. </string>
+    <string name = "esfj_saranp"> Do not sacrifice yourself just to please others. Do not measure your self-esteem from the treatment, respect and praise of others. Ask others for consideration in making decisions. Learn to be more assertive. Accept life responsibilities and learn to mature. Do not pity yourself. Face criticism and conflict, do not run. </string>
+    <string name = "esfj_saranf"> Financial Planner, Nurse, Teacher, Kids Field, Counselor, Administrative, Hospitality </string>
+    <string name = "esfj_partner"> ISFP or INFP </string>
+    <string name = "esfj_ket"> "Harmony" </string>
+
+    <!-- ENFJ-->
+    <string name = "enfj_sifat"> Creative, imaginative, sensitive, sensitive, loyal. It generally cares about what people say or what others want and tends to do something with other people\'s feelings. Clever, convincing, friendly, fun, popular, sympathetic. Responsive to criticism and praise. Love new variations and challenges. Need appreciation and acceptance. </string>
+    <string name = "enfj_saranp"> Do not sacrifice yourself just to please others. Do not measure your self-worth from the treatment of others. Do not get easily disappointed if they are not what you want them to be. Learn to be firm and make decisions. Facing criticism and conflict. Do not be so hard on yourself. </string>
+    <string name = "enfj_saranf"> Consultant, Psychologist, Counselor, Educator, Marketing, HRD, Event Coordinator, Entertainer, Author, Motivator </string>
+    <string name = "enfj_partner"> INFP or ISFP </string>
+    <string name = "enfj_ket"> "Assured" </string>
+
+    <!--<! - ENTJ ->-->
+    <string name = "entj_sifat"> Assertive, assertive, to the point, honestly frank, objective, critical, and have high standards. Dominant, strong will, perfectionist and competitive. Resilient, disciplined, and highly appreciative of commitment. Tends to hide feelings and hide weaknesses. Charisma, good communication, able to move people. Talented leader. </string>
+    <string name = "entj_saranp"> Learn to relax. No need for perfectionism and always competitive with everyone. Express your feelings. Expressing feelings is not a weakness. Learn to manage your emotions. Do not get angry easily. Learn to appreciate and appreciate others. Do not be too arrogant and underestimate others. See the plus side. Do not just look right and wrong. </string>
+    <string name = "entj_saranf"> Entrepreneur, Lawyer, Judge, Consultant, Organization Leader, Business analyst, Financial Field </string>
+    <string name = "entj_partner"> INTP or ISTP </string>
+    <string name = "entj_ket"> "Natural Leaders" </string>
+    <string name="yourPersona">Your Personality Is:</string>
+    <string name="character">Character</string>
+    <string name="buildAdvice">Self-Building Advice</string>
+    <string name="profAdvice">Profession Advice</string>
+    <string name="partner">Match Natural Partner</string>
+    <string name="shareWorld">Share the Result to the World!</string>
+    <string name="youare">You Are</string>
+    <string name="great">Great!</string>
+    <string name="crtPos">This simple intelligence test shows that you are a cognitive thinker. So, in general you are able to activate your cognitive system, and able to control your conscious and subconscious. You are able to make decisions and take account of problems through analytical approaches. If you are still curious, please read Dr. Frederick for more details :)</string>
+    <string name="crtNo">This simple intelligence test shows that you are an Intuitive thinker. So, in general you experience little interference in activating your cognitive system, and instead activate your intuition system. Some of the decisions you make may be because of a mere intuition, not because of analogical calculations. Of course you are brave, because the quick decision, but take into account the decision does not hurt either, is it? If you are still curious, please read Dr. Frederick for more details :)</string>
+    <string name="cogThinker">Cognitive Thinker</string>
+    <string name="intuiThinker">Intuitive Thinker</string>
+    <string name="curious">Curious About The Answer?</string>
+    <string name="kunciJawabanCRT">the answer is actually simple, question number one answer 5, for question number two the answer is also 5, and for question number 3 the answer is 47. already understand what it means? :)</string>
+    <string name="corrAnswer">Correct Answer:</string>
+    <string name="haveFun">Do you have fun? do you learn something new? :)</string>
+    <string name="bahasa">This application has 2 languages, English and Indonesian. To change it, please change the language preference in your Android phone settings, and automatically the application language will change. Cool, right :)</string>
+    <string name="multiLang">Multi Language Support</string>
+    <string name="Lang">English</string>
+    <string name="about">About</string>
+    <string name="contact">Contact Us</string>
+    <string name="isiAbout1">MineMind + is the final project for the \'Indonesia Android Kejar\' event. This application is designed and created by IAK participants, namely: Aldo Suhartono Putra. This app is a multi quiz, which consists of quiz intelligence, personality quizzes, and fun quiz.
+    \n\n This application can be created due to support from many parties. For that, makers want to thank especially to: Google, Indonesia Android Chase, Udacity, StackOverFlow.com (thanks for completing my many errors), Github (thanks for paolorotolo that I use for my app AppIntro). And of course special thanks to Facilitator Muhammad Viga Farizan who has transferred his knowledge. :)
+    \n\n For suggestions and feedback, or to contact the author (Aldo Suhartono Putra) please press the button below. Have fun with MineMind + :)</string>
+    <string name="order_summary_email_subject">Suggestion and Feedback of MineMind+ App</string>
+    <string name="app_intro">Welcome</string>
+    <string name="resultMC">I just finished Fun Quiz, I got new knowledge about our brain, please check and have fun :) @MineMindApp #MineMindApp</string>
+    <string name="resultIQ1">I just finished the CRT test and got results as</string>
+    <string name="resultMBTI1">I just completed MBTI personality test and got results as</string>
+    <string name="resultRW1">I just finished the \'True or False Quiz\' Fun Challenge from MineMind+, my score is</string>
+    <string name="resultIQ2">, Come try @MineMindApp #MineMindApp</string>
+    <string name="resultMBTI2">, Come try also @MineMindApp #MineMindApp</string>
+    <string name="resultRW2">what yours? @MineMindApp #MineMindApp</string>
+    <string name="shareUsing">Share Using:</string>
+    <string name="slide1a">Hello</string>
+    <string name="slide1b">Welcome to the MineMind + app
+        \n \n We will guide you so you can have fun with this app!</string>
+    <string name="slide2a">Answer, Answer and Learn</string>
+    <string name="slide2b">MineMind + has 3 quiz groups, namely Intelligence test, Personality test, and Fun Test. Each test is compiled based on certain standards that have been commonly used. From these three tests, you can learn, increase your knowledge, as well as know more about yourself and how your brain works even further. Wow amazing!</string>
+    <string name="slide3a">Multi Language</string>
+    <string name="slide3b">MineMind + is made in such a way as to support the Android localization feature, you only need to change your language preference in your phone settings, and the language in this application will change. Currently MineMind + supports both English and Indonesian. Thanks to Android Localization Features :)</string>
+    <string name="slide4a">Share and Push</string>
+    <string name="slide4b">Share your test results worldwide! Each test result can be share to various applications (Thanks to Android Intent). In addition, this app comes with an automatic push for anyone who tweets to @MineMindApp Twitter Account and hashtag #MineMindApp (Thanks to Pushwoosh Service). So you can share more with the world. Not believe this app can push? Please try it for yourself! (Experimental Feature)</string>
+    <string name="slide5a">From IAK For You</string>
+    <string name="slide5b">MineMind + is the final project of the \'Indonesia Android Kejar\' event created by Aldo Suhartono Putra, and facilitated by Muhammad Viga Farizan. However, even though this is only the final project, the author try to make the best for you. By the way, if you like this app do not forget to tell your friends. Have fun :)</string>
+
+</resources>

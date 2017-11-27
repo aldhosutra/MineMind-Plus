@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MineMind+</string>
+    <string name="tes1">TES KECERDASAN</string>
+    <string name="tes2">TES KEPRIBADIAN</string>
+    <string name="tes3">KUIS ASIK</string>
+    <string name="please_choose1">Silahkan Pilih Mode Kuis</string>
+    <string name="sub_kuis1">Jawab pertanyaan dan tambah wawasanmu tentang pikiran dan otak manusia, tambah ilmu itu rasanya pasti asik :)</string>
+    <string name="kuisbenarsalah">Kuis Benar Salah</string>
+    <string name="multi_choice">Pilihan Ganda</string>
+    <string name="introQuiz">Mari Mulai Dengan Ulasan Singkat Berikut</string>
+    <string name="introRW">Apakah Itu Benar atau Salah?</string>
+    <string name="introSubRW">Dalam mode ini akan disediakan 50 pertanyaan dengan hanya dua pilihan jawaban, benar atau salah. Setiap soal yang dijawab dengan tepat akan mendapatkan score +2, hati-hati, score mu akan dikurangi -1 kalau kamu salah. Tugasmu adalah menaklukan sebanyak-banyaknya soal tersebut dan mendapatkan score tertinggi. Wohoooo! Ngomong-Ngomong jangan lupa untuk membaca fakta unik yang muncul setiap kamu menjawab pertanyaan, artinya setiap soal yang kamu jawab betul-betul menambah poin pengetahuan sungguhan mu. :)</string>
+    <string name="letsgo">Ayo Mulai!</string>
+    <string name="beatThis">Bagaimana Cara Menaklukkan Tantangan Ini?</string>
+    <string name="qNo">Soal</string>
+    <string name="right">benar</string>
+    <string name="wrong">salah</string>
+    <string name="correctAnswer">Jawaban Anda Tepat!</string>
+    <string name="wrongAnswer">Jawaban Anda Tidak Tepat!</string>
+    <string name="soundsInteresting">Terdengar Menarik!</string>
+    <string name="rwq1" formatted="false">Otak menggunakan sekitar 5% dari total energi dan oksigen.</string>
+    <string name="rwf1" formatted="false">Faktanya, otak pada umumnya sekitar 2% dari berat tubuh tapi menggunakan 20% dari totalnya  asupan energi dan oksigen</string>
+    <string name="rwq2" formatted="false">Otak adalah air 53%.</string>
+    <string name="rwf2" formatted="false">Faktanya, otak Anda adalah 73% air. Dibutuhkan hanya 2% dehidrasi untuk mempengaruhi perhatian, memori dan kemampuan kognitif lainnya</string>
+    <string name="rwq3" formatted="false">Otak adalah organ paling berlemak / gemuk</string>
+    <string name="rwf3" formatted="false">Faktanya, otak Anda memiliki berat sekitar 3 kilogram. Dari jumlah itu, berat kering adalah 60% lemak, membuat otak Anda menjadi organ paling gemuk</string>
+    <string name="rwq4" formatted="false">Otak kita membutuhkan kolesterol</string>
+    <string name="rwf4" formatted="false">Faktanya, dua puluh lima persen kolesterol tubuh berada di dalam otak.  Kolesterol merupakan bagian integral dari setiap sel otak. Tanpa kolesterol yang memadai, sel otak mati. Jelas Anda harus mengendalikan kolesterol Anda.</string>
+    <string name="rwq5" formatted="false">Otak mengandung 1 juta sel otak</string>
+    <string name="rwf5" formatted="false">Faktanya, otak kita mengandung lebih banyak. Tidak ada yang tahu pasti, tapi perkiraan terakhirnya adalah otak kita mengandung kira-kira 86 miliar sel otak</string>
+    <string name="rwq6" formatted="false">Semua sel otak sama</string>
+    <string name="rwf6" formatted="false">Faktanya, Semua sel otak tidak sama. Ada sebanyak 10.000 jenis neuron spesifik di otak</string>
+    <string name="rwq7" formatted="false">Otak orang dewasa tumbuh lebih cepat dari pada otak bayi.</string>
+    <string name="rwf7" formatted="false">Faktanya, Bayi memiliki kepala yang besar untuk menahan otak yang tumbuh dengan cepat. Otak bayi 2 tahun adalah 80% dari ukuran orang dewasa</string>
+    <string name="rwq8" formatted="false">Otak kita bergerak di antara sel lebih cepat dari pada balapan Formula 1</string>
+    <string name="rwf8" formatted="false">Faktanya, informasi Otak bergerak antara 1 mph dan 268 mil per jam yang mengesankan. Ini lebih cepat dari mobil balap Formula 1 yang berada di atas 240 mph</string>
+    <string name="rwq9" formatted="false">Otak kita mengandung listrik</string>
+    <string name="rwf9" formatted="false">Faktanya, otak Anda menghasilkan sekitar 12-25 watt listrik. Ini cukup untuk menyalakan lampu LED dengan watt rendah</string>
+    <string name="rwq10" formatted="false">Sekitar 100.000 reaksi kimia terjadi di otak setiap detik</string>
+    <string name="rwf10" formatted="false">Faktanya, Lebih dari 100.000 reaksi kimia terjadi di otak Anda setiap detik</string>
+    <string name="rwq11" formatted="false">Otak perempuan lebih besar dari otak pria</string>
+    <string name="rwf11" formatted="false">Faktanya, umumnya otak pria 10% lebih besar dari wanita, bahkan setelah memperhitungkan ukuran tubuh lebih besar</string>
+    <string name="rwq12" formatted="false">Otak Albert Einstein lebih besar dari rata-rata otak orang</string>
+    <string name="rwf12" formatted="false">Faktanya, otak Albert Einstein berbobot 2,71 pound (1.230 gram) - 10% lebih kecil   dari rata-rata 3 pon (1.400 gram).   Namun, kerapatan neuron otaknya lebih besar dari rata-rata</string>
+    <string name="rwq13" formatted="false">Manusia memiliki otak terbesar di antara semua makhluk</string>
+    <string name="rwf13" formatted="false">Faktanya, manusia tidak memiliki otak terbesar. Kehormatan itu termasuk paus sperma (Physeter microcephalus) dengan otak seberat 17 pon</string>
+    <string name="rwq14" formatted="false">Multitask (mengerjakan banyak pekerjaan sekaligus) membuat otak kita bekerja lebih produktif</string>
+    <string name="rwf14" formatted="false">Sebenarnya, Multitasking membuat Anda kurang produktif. Ketika kamu  multitask , otak Anda hanya bolak-balik antara tugas dengan sangat cepat. Hasilnya, dalam penurunan di  rentang perhatian, pembelajaran, kinerja, dan memori jangka pendek</string>
+    <string name="rwq15" formatted="false">Orang usia milenial (Umur 18 sampai 34) kurang pelupa</string>
+    <string name="rwf15" formatted="false">Faktanya, Anehnya, anak milenium (umur 18 sampai 34) lebih pelupa daripada orang zaman perang dunia II. Mereka lebih cenderung melupakan hari apa itu atau di mana mereka meletakkan kunci mereka  dari orang tua mereka</string>
+    <string name="rwq16" formatted="false">Sel otak memakan diri mereka sendiri</string>
+    <string name="rwf16" formatted="false">Faktanya, sel otak kanibal diri mereka sebagai sumber energi terakhir untuk menangkal kelaparan. Jadi dengan cara yang sangat nyata diet bisa memaksa otakmu untuk makan sendiri</string>
+    <string name="rwq17" formatted="false">Otak kita bisa menyimpan informasi tak terbatas</string>
+    <string name="rwf17" formatted="false">Faktanya, kapasitas penyimpanan otak Anda dianggap tidak terbatas. Tidak bisa \"habis pakai\" seperti RAM di komputer Anda</string>
+    <string name="rwq18" formatted="false">Kita hanya menggunakan 10% dari kapasitas otak kita.</string>
+    <string name="rwf18" formatted="false">Mitos populer yang kita gunakan hanya 10% otak kita yang jelas salah. Pemindaian otak dengan jelas menunjukkan bahwa kebanyakan kita menggunakan sebagian besar otak kita, bahkan saat kita sedang tidur</string>
+    <string name="rwq19" formatted="false">Jenis kepribadian otak-kiri adalah orang-orang analitis, dan tipe kepribadian otak-kanan adalah orang yang kreatif</string>
+    <string name="rwf19" formatted="false">Kenyataannya, tidak ada yang namanya tipe kepribadian otak kiri atau otak kanan. Kita tidak berotak kiri atau berotak kanan; kita \"berotak utuh\".</string>
+    <string name="rwq20" formatted="false">Sel otak kita jauh lebih banyak daripada bintang di Bima Sakti</string>
+    <string name="rwf20" formatted="false">Anda mungkin pernah mendengar bahwa kita memiliki lebih banyak sel otak daripada ada bintang di Bima Sakti, tapi ini tidak benar. Faktanya, perkiraan tebakan Terbaik adalah bahwa kita memiliki 86 miliar neuron dan ada 200-400 miliar bintang di Bima Sakti</string>
+    <string name="rwq21" formatted="false">Emosi bisa mempengaruhi seberapa akurat kita mengingat sesuatu</string>
+    <string name="rwf21" formatted="false">Kenyataannya, ingatan murni sangat tidak bisa diandalkan.  Emosi, motivasi, isyarat, konteks dan frekuensi penggunaan semuanya dapat mempengaruhi seberapa akurat Anda mengingat sesuatu</string>
+    <string name="rwq22" formatted="false">Satu Informasi untuk diingat disimpan di satu tempat di otak kita</string>
+    <string name="rwf22" formatted="false">Faktanya, ingatan lebih dari sekedar aktivitas di satu tempat. Memory apapun yang diingat didekonstruksi dan didistribusikan di bagian-bagian yang berbeda dari otak. Kemudian ketika memori tersebut di panggil kembali, dia direkonstruksi dari bagiannya masing-masing.</string>
+    <string name="rwq23" formatted="false">Saat kita mabuk, otak kita mampu membentuk kenangan</string>
+    <string name="rwf23" formatted="false">Jika kamu menjadi mabuk dan tidak ingat apa yang kamu lakukan tadi malam, itu bukan karena kamu lupa. Sementara Anda mabuk otak Anda tidak mampu membentuk kenangan</string>
+    <string name="rwq24" formatted="false">Otak kita adalah organ yang padat</string>
+    <string name="rwf24" formatted="false">Otak manusia tidak kokoh. Ini lembut dan licin mirip dengan konsistensi tahu lembut atau gelatin. Dan itu sangat rapuh</string>
+    <string name="rwq25" formatted="false">Hidup dengan setengah otak tidak mungkin</string>
+    <string name="rwf25" formatted="false">Terkadang setengah otak itu sama bagusnya dengan otak utuh. Saat ahli bedah melakukan hemispherectomy, mereka menghapus atau menghilangkan setengah dari otak untuk menghentikan kejang. Mengejutkannya, pasien sama sekali tidak terpengaruh pada kepribadian atau memori.</string>
+    <string name="rwq26" formatted="false">Sebagian besar keputusan kita terjadi di alam bawah sadar kita</string>
+    <string name="rwf26" formatted="false">Ada kira anda dalam kontrol terhadap hidup anda? Pikir lagi, 95% keputusan faktanya terjadi di alam bawah sadar anda.</string>
+    <string name="rwq27" formatted="false">Neurons atau sel otak di tubuh kita hanya ada di otak</string>
+    <string name="rwf27" formatted="false">Otak di kepala kita bukanlah satu-satunya otak kita. Ada “otak kedua” di usus kita yang berisi 100 juta neurons. Bakteri usus bertanggungjawab untuk menghasilkan lebih dari 30 neurotransmitter termasuk serotonin “molekul bahagia”</string>
+    <string name="rwq28" formatted="false">Pil tidur membuat otak kita menjadi mirip dengan koma</string>
+    <string name="rwf28" formatted="false">Resep obat tidur tidak membuat Anda tertidur. Mereka memasukkan otak Anda ke dalam sebuah kondisi yang mirip dengan keadaan koma, pada dasarnya memang hampir mirip seperti tidur</string>
+    <string name="rwq29" formatted="false">Ponsel kita bisa merusak otak kita</string>
+    <string name="rwf29" formatted="false">Lebih dari 140 protein di otak terkena dampak negatif oleh paparan terhadap frekuensi elektromagnetik - jenis yang dipancarkan oleh ponsel Anda dan perangkat elektronik lainnya.</string>
+    <string name="rwq30" formatted="false">Saat kita merasa sakit, otak kita juga merasakan sakitnya</string>
+    <string name="rwf30" formatted="false">Meski sakit diproses di otak Anda, otak Anda tidak memiliki reseptor rasa sakit dan tidak merasakan sakit. Ini menjelaskan bagaimana otak operasi bisa dilakukan saat Pasien terbangun tanpa rasa sakit atau ketidaknyamanan</string>
+    <string name="rwq31" formatted="false">Anak-anak yang belajar memainkan alat musik lebih pintar</string>
+    <string name="rwf31" formatted="false">Kebanyakan ilmuwan berpendapat bahwa tidak ada bukti bahwa memainkan musik klasik pada bayi meningkatkan kekuatan pikiran mereka. Namun, anak-anak yang belajar memainkan alat musik bisa mengembangkan kemampuan mental mereka lebih jauh daripada mereka yang tidak belajar alat musik</string>
+    <string name="rwq32" formatted="false">Perasaan adalah bagian dari pikiran sadar kita</string>
+    <string name="rwf32" formatted="false">Pikiran sadar mencakup sensasi, persepsi, ingatan, perasaan, dan fantasi di dalam kesadaran kita saat ini. Pikiran bawah sadar mencakup pemikiran yang sedang kita pikirkan saat ini namun dengan mudah bisa menarik ke dalam pikiran sadar kita. Pikiran bawah sadar adalah aktivitas psikis yang beroperasi di bawah tingkat kesadaran</string>
+    <string name="rwq33" formatted="false">Ingat segala sesuatu dan tidak pernah lupa setiap hal adalah hal yang baik</string>
+    <string name="rwf33" formatted="false">Solomon Shereshevsky adalah seorang jurnalis Rusia yang tidak bisa lupa apapun. Dia menderita sinestesia, sebuah fenomena di mana satu indra (misalnya penglihatan) merangsang rasa lain (seperti pendengaran). Sinestesia ekstrem Salomon membuatnya merasakan, mencium, dan melihat gambar yang hidup bersamaan dengan angka dan suara. Karena satu kata bisa memicu banjir kenangan dan asosiasi, dia mengalami kesulitan membaca buku atau melakukan percakapan sederhana.</string>
+    <string name="rwq34" formatted="false">Memanggil kembali ingatan di otak kita adalah tindakan reimaginasi kreatif dan rekonstruksi</string>
+    <string name="rwf34" formatted="false">Saat pikiran mengingat ingatan, itu bukan ingatan aslinya. Sebenarnya, tindakan mengingat adalah tindakan reimaginasi kreatif. Memori bersama tidak hanya memiliki beberapa lubang; Ini juga memiliki beberapa bit yang sama sekali baru yang disisipkan</string>
+    <string name="rwq35" formatted="false">Pertanyaan palsu yang diulang-ulang bisa menciptakan memori palsu yang nyata dalam pikiran kita</string>
+    <string name="rwf35" formatted="false">Penelitian telah membuktikan betapa mudahnya menciptakan kenangan palsu melalui dorongan sugesti. Para psikolog menemukan bahwa jika mereka mengulangi pertanyaan dan mengundang pikiran untuk membayangkan detail sensorik, seseorang akan mulai percaya bahwa itu adalah peristiwa yang sebenarnya</string>
+    <string name="rwq36" formatted="false">Pengiklan menggunakan ilusi pikiran untuk membuat produk mereka lebih menarik</string>
+    <string name="rwf36" formatted="false">Misalnya, mereka menghasilkan botol bumbu dengan leher panjang karena pikiran lebih baik dalam menilai ukuran dari pada volume. Botol sirup maple sempit di pangkal tapi menonjol di tengah, saat itulah seseorang paling mungkin untuk ingin melihat.</string>
+    <string name="rwq37" formatted="false">Internet mengubah struktur otak kita, dan mengubah kemampuan berpikir dan belajar</string>
+    <string name="rwf37" formatted="false">Secara khusus, Internet terlalu banyak mengoptimalkan bagian otak yang terlibat dalam ingatan, sementara sehingga pemikiran dan kreativitas yang dalam menjadi semakin sulit.</string>
+    <string name="rwq38" formatted="false">Aroma adalah pemicu memori yang kurang ampuh</string>
+    <string name="rwf38" formatted="false">Kenangan yang dipicu oleh aroma memiliki beberapa koneksi emosional terkuat dan tampak lebih kuat daripada pemicu memori lainnya</string>
+    <string name="rwq39" formatted="false">Orang depresi bermimpi lebih sering</string>
+    <string name="rwf39" formatted="false">Orang depresi bermimpi tiga kali lebih banyak dari orang yang tidak depresi</string>
+    <string name="rwq40" formatted="false">Melihat foto orang yang dicintai bisa menjadi analgesik</string>
+    <string name="rwf40" formatted="false">"Melihat foto orang yang anda cintai bisa mengurangi rasa sakit fisik hingga 44%. Efeknya hampir sama dengan analgesik umum.  "</string>
+    <string name="rwq41" formatted="false">Video games bisa menghasilkan heroin di otak kita</string>
+    <string name="rwf41" formatted="false">Video games bisa menghasilkan kecanduan sekuat heroin. Tentunya ini berkaitan dengan mekanisme yang mengaktifkan kemauan, karena kekuatan kemauan sangat bergantung pada jumlah oksigen dan glukosa di dalam otak Anda.</string>
+    <string name="rwq42" formatted="false">Otak manusia bisa membedakan fantasi dan pengalaman nyata</string>
+    <string name="rwf42" formatted="false">Meski memiliki kapasitas yang besar, otak manusia tidak memiliki kemampuan yang baik untuk membedakan antara fantasi dan pengalaman nyata. Dengan demikian, seseorang bisa mengalami film seolah-olah itu adalah peristiwa yang terjadi di dunia nyata. Anda bisa merasakan kesedihan, rasa takut atau antusiasme dengan cara yang sama seperti bila Anda benar-benar mengalami kejadian itu</string>
+    <string name="rwq43" formatted="false">Otak kita tidak bisa merasakan apa yang dirasakan orang lain</string>
+    <string name="rwf43" formatted="false">Seseorang secara fisik dapat merasakan pukulan yang diterima orang lain, jika hal ini sangat mempengaruhi emosi mereka. Ini karena ada sel di otak yang disebut \"neuron cermin\" yang mereproduksi pengalaman seolah-olah Andalah yang menghayatinya</string>
+    <string name="rwq44" formatted="false">Pikiran bawah sadar lebih kuat dari pada pikiran sadar</string>
+    <string name="rwf44" formatted="false">Menurut Dr. Bruce Lipton, alam bawah sadar 1 juta kali lebih kuat daripada pikiran sadar. Mengetuk kekuatan pikiran bawah sadar jangan pernah diremehkan.</string>
+    <string name="rwq45" formatted="false">10 kuadriliun operasi per detik adalah operasi yang terlalu banyak untuk otak kita</string>
+    <string name="rwf45" formatted="false">Otak manusia adalah superkomputer pengolah kuantum paling kuat di dunia. Otak mampu melakukan segala macam proses simultan yang kompleks, bahkan saat (atau terutama saat) kita tertidur</string>
+    <string name="rwq46" formatted="false">Pikiran manusia tidak bisa diprogram, hanya mengalir sendiri</string>
+    <string name="rwf46" formatted="false">Hipnosis, NLP (Neuro Linguistic Programming) dan model serupa lainnya adalah contoh sempurna bagaimana hal ini dapat dilakukan secara efektif</string>
+    <string name="rwq47" formatted="false">Diperlukan lebih dari 30 menit tanpa oksigen untuk merusak otak kita</string>
+    <string name="rwf47" formatted="false">Faktanya, Hanya 5 menit tanpa oksigen yang bisa menyebabkan kerusakan otak</string>
+    <string name="rwq48" formatted="false">Kita hanya menghasilkan sekitar 100 pikiran per hari melalui otak kita.</string>
+    <string name="rwf48" formatted="false">Faktanya, otak rata-rata diyakini menghasilkan sekitar 50.000 pikiran per hari. Namun, diperkirakan bahwa pada kebanyakan orang 70% dari pemikiran ini negatif</string>
+    <string name="rwq49" formatted="false">Otak kita lebih besar dari manusia 10.000 tahun yang lalu</string>
+    <string name="rwf49" formatted="false">Kenyataannya, otak kita semakin kecil. Dari dulu 10-20.000 tahun, ukuran otak manusia rata-rata menyusut  seukuran bola tenis</string>
+    <string name="rwq50" formatted="false">Ada 10.000 mil panjang pembuluh darah di otak</string>
+    <string name="rwf50" formatted="false">Sering dikatakan bahwa ada 10.000 mil pembuluh darah di otak kita, padahal kenyataannya, angkanya hanya mendekati 400 mil. Tetap sebuah angka yang menakjubkan.</string>
+    <string name="introMC">Pilih Satu Jawaban Terbaik</string>
+    <string name="introSubMC">Dalam mode ini, akan disediakan 10 pertanyaan dengan format pilihan ganda. Pilihlah satu dari kelima jawaban yang disediakan. Jangan khawatir, mode ini sangat santai, karena sama sekali tidak ada score, dan apabila anda belum menjawab pertanyaan dengan benar, anda belum bisa melanjutkan ke pertanyaan selanjutnya. Mudah kan? Meskipun mudah, mudah-mudahan kamu bisa mendapat pengetahuan baru dengan mengerjakan kuis ini ya :)</string>
+    <string name="exitDialog">Apakah anda yakin ingin keluar dari kuis ini?</string>
+    <string name="yesDialog">Ya</string>
+    <string name="noDialog">Tidak</string>
+    <string name="congratsQuizDone">Selamat! Kamu Baru Saja Menyelesaikan Tantangan Ini!</string>
+    <string name="next">Selanjutnya</string>
+    <string name="mcq1" formatted="false">Otak Menggunakan Berapa Persen Energi Tubuh?</string>
+    <string name="mcA1" formatted="false">2%</string>
+    <string name="mcB1" formatted="false">10%</string>
+    <string name="mcC1" formatted="false">20%</string>
+    <string name="mcD1" formatted="false">50%</string>
+    <string name="mcE1" formatted="false">60%</string>
+    <string name="mcB2" formatted="false">Sel Glial</string>
+    <string name="mcA2" formatted="false">Dura Mater</string>
+    <string name="mcC2" formatted="false">Sel Saraf</string>
+    <string name="mcD2" formatted="false">Kapiler</string>
+    <string name="mcE2" formatted="false">Astroglia</string>
+    <string name="mcq2" formatted="false">Apa Yang Tidak Ditemukan Di ‘Grey Matter’, Yang Merupakan Komponen Utama Otak?</string>
+    <string name="mcA3" formatted="false">Adalah Sumber Utama Kecerdasan</string>
+    <string name="mcB3" formatted="false">Terletak  Di Lobus Pusat Frontal</string>
+    <string name="mcC3" formatted="false">Berperan Memproses Informasi</string>
+    <string name="mcD3" formatted="false">Adalah Jaringan Saraf Yang Dominan Di Otak</string>
+    <string name="mcE3" formatted="false">Warna Utamanya Adalah Abu-Abu</string>
+    <string name="mcq3" formatted="false">Pernyataan Manakah Yang Benar Tentang Grey Matter?</string>
+    <string name="mcE4" formatted="false">Sel Saraf</string>
+    <string name="mcB4" formatted="false">Batang Otak</string>
+    <string name="mcq4" formatted="false">Apa Yang Bukan Bagian Dari Otak?</string>
+    <string name="mcA4" formatted="false">Cerebellum</string>
+    <string name="mcC4" formatted="false">Foramen Magnum</string>
+    <string name="mcD4" formatted="false">Cerebrum</string>
+    <string name="mcA5" formatted="false">Lobus Frontal</string>
+    <string name="mcC5" formatted="false">Lobus Parietal</string>
+    <string name="mcD5" formatted="false">Lobus Temporal</string>
+    <string name="mcE5" formatted="false">Lobus Occipital</string>
+    <string name="mcq5" formatted="false">Bagian Otak Mana Yang Bukan Bagian Dari Korteks Serebral?</string>
+    <string name="mcB5" formatted="false">Cerebellum</string>
+    <string name="mcq6" formatted="false">Bagian Otak Mana Yang Menggerakkan Sisi Kanan Tubuh Anda?</string>
+    <string name="mcA6" formatted="false">Lobus Parietalis Kiri</string>
+    <string name="mcB6" formatted="false">Lobus Frontal Kiri</string>
+    <string name="mcC6" formatted="false">Lobus Temporal Kanan</string>
+    <string name="mcD6" formatted="false">Lobus Frontal Kanan</string>
+    <string name="mcE6" formatted="false">Lobus Frontal Tengah</string>
+    <string name="mcA7" formatted="false">Daerah Wernicke</string>
+    <string name="mcB7" formatted="false">Lingkaran Willis</string>
+    <string name="mcC7" formatted="false">Gyrus Hersch</string>
+    <string name="mcD7" formatted="false">Sel Schwann</string>
+    <string name="mcE7" formatted="false">Semua Jawaban Salah</string>
+    <string name="mcq7" formatted="false">Bagian Otak Mana Yang Penting Untuk Pemahaman Bahasa?</string>
+    <string name="mcA8" formatted="false">Mengenal Bentuk</string>
+    <string name="mcB8" formatted="false">Berpakaian</string>
+    <string name="mcC8" formatted="false">Melakukan Aritmatika</string>
+    <string name="mcD8" formatted="false">Menulis</string>
+    <string name="mcE8" formatted="false">Merencanakan Tugas</string>
+    <string name="mcq8" formatted="false">Tugas Apa Yang Tidak Akan Terpengaruh Oleh Kerusakan Pada Lobus Parietalis Kanan?</string>
+    <string name="mcq9" formatted="false">Bagian Batang Otak Mana Yang Mengatur Detak Jantung Anda?</string>
+    <string name="mcA9" formatted="false">Pons</string>
+    <string name="mcB9" formatted="false">Medulla</string>
+    <string name="mcC9" formatted="false">Hypothalamus</string>
+    <string name="mcD9" formatted="false">Thalamus</string>
+    <string name="mcE9" formatted="false">Zeus</string>
+    <string name="mcq10" formatted="false">Saraf Kranial Mana Yang Memungkinkan Kita Mengunyah Makanan?</string>
+    <string name="mcA10" formatted="false">Wajah</string>
+    <string name="mcE10" formatted="false">Semua Jawaban Salah</string>
+    <string name="mcB10" formatted="false">Abducens</string>
+    <string name="mcC10" formatted="false">Trochlear</string>
+    <string name="mcD10" formatted="false">Trigeminal</string>
+    <string name="sorryIncorrect">Maaf, jawaban anda tidak benar, ayo jangan menyerah :(</string>
+    <string name="wowCorrect">Wow, jawabanmu benar, kamu hebat sekali! :)</string>
+    <string name="judulPersona">Tes Kepribadian</string>
+    <string name="subJudulPersona">Kenali dirimu lebih dalam secara kepribadian, dan buka potensi maksimal anda. Tes kepribadian ini disusun dengan standar yang telah banyak digunakan, jadi anda tidak perlu ragu lagi :)</string>
+    <string name="chooseStandard">Silahkan Pilih Standar Metodologi Kuis</string>
+    <string name="MBTI">Tes Kepribadian MBTI</string>
+    <string name="mbtiIntroText">Pada mode ini, anda akan disuguhkan 60 pertanyaan, dimana masing-masing pertanyaan akan tertera sebuah pernyataan. Tugasmu adalah memilih pernyataan yang paling sesuai dengan kepribadian kamu, tentunya semakin kamu jujur dalam tes ini, maka semakin akurat hasilnya. Setelah pertanyaan selesai, maka hasil kerpribadianmu akan langsung ditampilkan pada layar, Hore! :)</string>
+    <string name="MBTIHead">Kenali Dirimu Lebih Baik, dengan Standar MBTI</string>
+    <string name="whichOneFitYou">Pernyataan Mana Yang Sesuai Dengan Kepribadianmu?</string>
+    <string name="mbtiA1" formatted="false">Spontan, Fleksibel, tidak diikat waktu</string>
+    <string name="mbtiA2" formatted="false">Lebih memilih berkomunikasi dengan menulis</string>
+    <string name="mbtiA3" formatted="false">Tidak menyukai hal-hal yang bersifat mendadak dan di luar perencanaan</string>
+    <string name="mbtiA4" formatted="false">Obyektif</string>
+    <string name="mbtiA5" formatted="false">Menemukan dan mengembangkan ide dengan mendiskusikannya</string>
+    <string name="mbtiA6" formatted="false">Bergerak dari gambaran umum baru ke detail</string>
+    <string name="mbtiA7" formatted="false">Berorientasi pada dunia eksternal (kegiatan, orang)</string>
+    <string name="mbtiA8" formatted="false">Berbicara mengenai masalah yang dihadapi hari ini dan langkah-langkah praktis mengatasinya</string>
+    <string name="mbtiA9" formatted="false">Diyakinkan dengan penjelasan yang menyentuh perasaan</string>
+    <string name="mbtiA10" formatted="false">Fokus pada sedikit hobi namun mendalam</string>
+    <string name="mbtiA11" formatted="false">Tertutup dan mandiri</string>
+    <string name="mbtiA12" formatted="false">Aturan, jadwal dan target sangat mengikat dan membebani</string>
+    <string name="mbtiA13" formatted="false">Menggunakan pengalaman sebagai pedoman</string>
+    <string name="mbtiA14" formatted="false">Berorientasi tugas dan job description</string>
+    <string name="mbtiA15" formatted="false">Pertemuan dengan orang lain dan aktivitas sosial melelahkan</string>
+    <string name="mbtiA16" formatted="false">SOP sangat membantu</string>
+    <string name="mbtiA17" formatted="false">Mengambil keputusan berdasar logika dan aturan main</string>
+    <string name="mbtiA18" formatted="false">Bebas dan dinamis</string>
+    <string name="mbtiA19" formatted="false">Berorientasi pada hasil</string>
+    <string name="mbtiA20" formatted="false">Beraktifitas sendirian di rumah menyenangkan</string>
+    <string name="mbtiA21" formatted="false">Membiarkan orang lain bertindak bebas asalkan tujuan tercapai</string>
+    <string name="mbtiA22" formatted="false">Memilih ide inspiratif lebih penting daripada fakta</string>
+    <string name="mbtiA23" formatted="false">Mengemukakan tujuan dan sasaran lebih dahulu</string>
+    <string name="mbtiA24" formatted="false">Fokus pada target dan mengabaikan hal-hal baru</string>
+    <string name="mbtiA25" formatted="false">Kontinuitas dan stabilitas lebih diutamakan</string>
+    <string name="mbtiA26" formatted="false">Pendirian masih bisa berubah tergantung situasi nantinya</string>
+    <string name="mbtiA27" formatted="false">Bertindak step by step dengan timeframe yang jelas</string>
+    <string name="mbtiA28" formatted="false">Berinisiatif tinggi hampir dalam berbagai hal meskipun tidak berhubungan dengan dirinya</string>
+    <string name="mbtiA29" formatted="false">Lebih memilih tempat yang tenang dan pribadi untuk berkonsentrasi</string>
+    <string name="mbtiA30" formatted="false">Menganalisa</string>
+    <string name="mbtiA31" formatted="false">Berpikir secara matang sebelum bertindak</string>
+    <string name="mbtiA32" formatted="false">Menghargai seseorang karena sifat dan perilakunya</string>
+    <string name="mbtiA33" formatted="false">Merasa nyaman bila situasi tetap terbuka terhadap pilihan-pilihan lain</string>
+    <string name="mbtiA34" formatted="false">Menarik kesimpulan dengan lama dan hati-hati</string>
+    <string name="mbtiA35" formatted="false">Mengekspresikan semangat</string>
+    <string name="mbtiA36" formatted="false">Mengklarifikasi ide dan teori sebelum dipraktekkan</string>
+    <string name="mbtiA37" formatted="false">Melibatkan perasaan itu tidak profesional</string>
+    <string name="mbtiA38" formatted="false">Mencari kesempatan untuk berkomunikasi secara perorangan</string>
+    <string name="mbtiA39" formatted="false">Yang penting situasi harmonis terjaga</string>
+    <string name="mbtiA40" formatted="false">Ketidakpastian itu seru, menegangkan dan membuat hati lebih senang</string>
+    <string name="mbtiA41" formatted="false">Berfokus pada masa kini (apa yang bisa diperbaiki sekarang)</string>
+    <string name="mbtiA42" formatted="false">Mempertanyakan</string>
+    <string name="mbtiA43" formatted="false">Secara konsisten mengamati dan mengingat detail</string>
+    <string name="mbtiA44" formatted="false">Situasi last minute membuat bersemangat dan memunculkan potensi</string>
+    <string name="mbtiA45" formatted="false">Lebih suka komunikasi tidak langsung (telp, surat, e-mail)</string>
+    <string name="mbtiA46" formatted="false">Praktis</string>
+    <string name="mbtiA47" formatted="false">Perubahan adalah musuh</string>
+    <string name="mbtiA48" formatted="false">Sering dianggap keras kepala</string>
+    <string name="mbtiA49" formatted="false">Bersemangat saat menolong orang keluar dari kesalahan dan meluruskan</string>
+    <string name="mbtiA50" formatted="false">Bertindak sesuai situasi dan kondisi yang terjadi saat itu</string>
+    <string name="mbtiA51" formatted="false">Menggunakan keterampilan yang sudah dikuasai</string>
+    <string name="mbtiA52" formatted="false">Membangun ide pada saat berbicara</string>
+    <string name="mbtiA53" formatted="false">Memilih cara yang sudah ada dan sudah terbukti</string>
+    <string name="mbtiA54" formatted="false">Hidup harus sudah diatur dari awal</string>
+    <string name="mbtiA55" formatted="false">Standar harus ditegakkan di atas segalanya (itu menunjukkan kehormatan dan harga diri)</string>
+    <string name="mbtiA56" formatted="false">Daftar dan checklist adalah panduan penting</string>
+    <string name="mbtiA57" formatted="false">Menuntut perlakuan yang adil dan sama pada semua orang</string>
+    <string name="mbtiA58" formatted="false">Mementingkan sebab-akibat</string>
+    <string name="mbtiA59" formatted="false">Puas ketika mampu beradaptasi dengan momentum yang terjadi</string>
+    <string name="mbtiA60" formatted="false">Spontan, Easy Going, fleksibel</string>
+    <string name="mbtiB1" formatted="false">Terencana dan memiliki deadline jelas</string>
+    <string name="mbtiB2" formatted="false">Lebih memilih berkomunikasi dengan bicara</string>
+    <string name="mbtiB3" formatted="false">Perubahan mendadak tidak jadi masalah</string>
+    <string name="mbtiB4" formatted="false">Subyektif</string>
+    <string name="mbtiB5" formatted="false">Menemukan dan mengembangkan ide dengan merenungkan</string>
+    <string name="mbtiB6" formatted="false">Bergerak dari detail ke gambaran umum sebagai kesimpulan akhir</string>
+    <string name="mbtiB7" formatted="false">Berorientasi pada dunia internal (memori, pemikiran, ide)</string>
+    <string name="mbtiB8" formatted="false">Berbicara mengenai visi masa depan dan konsep-konsep mengenai visi tersebut</string>
+    <string name="mbtiB9" formatted="false">Diyakinkan dengan penjelasan yang masuk akal</string>
+    <string name="mbtiB10" formatted="false">Fokus pada banyak hobi secara luas dan umum</string>
+    <string name="mbtiB11" formatted="false">Sosial dan ekspresif</string>
+    <string name="mbtiB12" formatted="false">Aturan, jadwal dan target akan sangat membantu dan memperjelas tindakan</string>
+    <string name="mbtiB13" formatted="false">Menggunakan imajinasi dan perenungan sebagai pedoman</string>
+    <string name="mbtiB14" formatted="false">Berorientasi pada manusia dan hubungan</string>
+    <string name="mbtiB15" formatted="false">Bertemu orang dan aktivitas sosial membuat bersemangat</string>
+    <string name="mbtiB16" formatted="false">SOP sangat membosankan</string>
+    <string name="mbtiB17" formatted="false">Mengambil keputusan berdasar perasaan pribadi dan kondisi orang lain</string>
+    <string name="mbtiB18" formatted="false">Prosedural dan tradisional</string>
+    <string name="mbtiB19" formatted="false">Berorientasi pada proses</string>
+    <string name="mbtiB20" formatted="false">Beraktifitas sendirian di rumah membosankan</string>
+    <string name="mbtiB21" formatted="false">Mengatur orang lain dengan tata tertib agar tujuan tercapai</string>
+    <string name="mbtiB22" formatted="false">Memilih fakta lebih penting daripada ide inspiratif</string>
+    <string name="mbtiB23" formatted="false">Mengemukakan kesepakatan terlebih dahulu</string>
+    <string name="mbtiB24" formatted="false">Memperhatikan hal-hal baru dan siap menyesuaikan diri serta mengubah target</string>
+    <string name="mbtiB25" formatted="false">Perubahan dan variasi lebih diutamakan</string>
+    <string name="mbtiB26" formatted="false">Berpegang teguh pada pendirian</string>
+    <string name="mbtiB27" formatted="false">Bertindak dengan semangat tanpa menggunakan timeframe</string>
+    <string name="mbtiB28" formatted="false">Berinisiatif bila situasi memaksa atau berhubungan dengan kepentingan sendiri</string>
+    <string name="mbtiB29" formatted="false">Lebih memilih tempat yang ramai dan banyak interaksi / aktifitas</string>
+    <string name="mbtiB30" formatted="false">Berempati</string>
+    <string name="mbtiB31" formatted="false">Berani bertindak tanpa terlalu lama berfikir</string>
+    <string name="mbtiB32" formatted="false">Menghargai seseorang karena skill dan faktor teknis</string>
+    <string name="mbtiB33" formatted="false">Merasa tenang bila semua sudah diputuskan</string>
+    <string name="mbtiB34" formatted="false">menarik kesimpulan dengan cepat sesuai naluri</string>
+    <string name="mbtiB35" formatted="false">Menyimpan semangat dalam hati</string>
+    <string name="mbtiB36" formatted="false">Memahami ide dan teori saat mempraktekkannya langsung</string>
+    <string name="mbtiB37" formatted="false">Terlalu kaku pada peraturan dan pekerjaan itu kejam</string>
+    <string name="mbtiB38" formatted="false">Memilih berkomunikasi pada sekelompok orang</string>
+    <string name="mbtiB39" formatted="false">Yang penting tujuan tercapai</string>
+    <string name="mbtiB40" formatted="false">Ketidakpastian membuat bingung dan meresahkan</string>
+    <string name="mbtiB41" formatted="false">Berfokus pada masa depan (apa yang mungkin dicapai di masa depan)</string>
+    <string name="mbtiB42" formatted="false">Mengakomodasi</string>
+    <string name="mbtiB43" formatted="false">Mengamati dan mengingat detail hanya bila berhubungan dengan pola</string>
+    <string name="mbtiB44" formatted="false">Situasi last minute sangat menyiksa, membuat stress dan merupakan kesalahan</string>
+    <string name="mbtiB45" formatted="false">Lebih suka komunikasi langsung (tatap muka)</string>
+    <string name="mbtiB46" formatted="false">Konseptual</string>
+    <string name="mbtiB47" formatted="false">Perubahan adalah semangat hidup</string>
+    <string name="mbtiB48" formatted="false">Sering dianggap terlalu memihak</string>
+    <string name="mbtiB49" formatted="false">Bersemangat saat mengkritik dan menemukan kesalahan</string>
+    <string name="mbtiB50" formatted="false">Bertindak sesuai apa yang sudah direncanakan</string>
+    <string name="mbtiB51" formatted="false">Menyukai tantangan untuk menguasai keterampilan baru</string>
+    <string name="mbtiB52" formatted="false">Membangun ide dengan matang baru membicarakannya</string>
+    <string name="mbtiB53" formatted="false">Memilih cara yang unik dan belum dipraktekkan orang lain</string>
+    <string name="mbtiB54" formatted="false">Hidup seharusnya mengalir sesuai kondisi</string>
+    <string name="mbtiB55" formatted="false">Perasaan manusia lebih penting dari sekadar standar (yang adalah benda mati)</string>
+    <string name="mbtiB56" formatted="false">Daftar dan checklist adalah tugas dan beban</string>
+    <string name="mbtiB57" formatted="false">Menuntut perlakuan khusus sesuai karakteristik masing-masing orang</string>
+    <string name="mbtiB58" formatted="false">Mementingkan nilai-nilai personal</string>
+    <string name="mbtiB59" formatted="false">Puas ketika mampu menjalankan semuanya sesuai rencana</string>
+    <string name="mbtiB60" formatted="false">Berhati-hati, penuh pertimbangan, kaku</string>
+    <string name="subIQChoice">Uji kemampuan intelektualitas dasarmu dengan standar yang telah disusun oleh ahli.</string>
+    <string name="judulCRT">Berfikir Kognitif vs Intuitif</string>
+    <string name="subsubCRT">Cognitive Reflection Test adalah sebuah test IQ PALING CEPAT di dunia! CRT hanya terdiri dari 3 soal, dan mampu mengukur kecenderungan kita dalam berfikir, kognitif atau intuitif. Test ini dikembangkan oleh Dr. Frederick. Terlalu Mudah? jangan sombong dulu, buktikan anda bisa menjawab pertanyaan sederhana ini! :)</string>
+    <string name="answerThese">Jawab Pertanyaan ini dengan teliti!</string>
+    <string name="yourAnswer">"Jawaban Anda: "</string>
+    <string name="areYouSure">Apakah Anda Yakin dengan Jawaban Anda?</string>
+    <string name="crtq1">Sebuah pemukul dan sebuah bola berharga Rp. 110. Pemukul itu berharga Rp. 100 lebih mahal daripada bola. Berapa harga bola? _____  Rupiah</string>
+    <string name="crtq2">Jika dibutuhkan 5 mesin 5 menit untuk membuat 5 produk, berapa waktu yang dibutuhkan 100 mesin untuk membuat 100 produk? _____ menit</string>
+    <string name="crtq3">Di sebuah danau, ada sepetak bantalan bunga lily. Setiap hari, petak itu bertambah dua kali lipat. Jika dibutuhkan 48 hari untuk petak lily tersebut menutupi seluruh danau, berapa lama waktu yang dibutuhkan petak tersebut untuk menutupi setengah danau? _____ hari</string>
+    <string name="noNullInput">Isian Tidak Boleh Kosong</string>
+
+    <!-- ISTJ-->
+    <string name="istj_sifat">Serius, tenang, stabil, dan damai. Senang pada fakta, logis, obyektif, praktis, dan realistis. Task oriented, tekun, teratur, menepati janji, dapat diandalkan, dan bertanggung jawab. Pendengar yang baik, setia, hanya mau berbagi dengan orang dekat. Memegang aturan, standar, dan  prosedur dengan teguh.    </string>
+    <string name="istj_saranp">Belajarlah memahami perasaan dan kebutuhan orang lain. Kurangi keinginan untuk mengontrol orang lain atau memerintah mereka untuk menegakkan aturan. Lihatlah lebih banyak sisi positif pada orang lain atau hal lainnya. Terbukalah terhadap perubahan.</string>
+    <string name="istj_saranf">Bidang Manajemen, Polisi, Intelijen, Hakim, Pengacara, Dokter, Akuntan (Staf Keuangan), Programmer atau yang berhubungan dengan IT, System Analys, Pemimpin Militer</string>
+    <string name="istj_partner">ESFP atau ESTP</string>
+    <string name="istj_ket">"Bertanggungjawab"</string>
+
+    <!-- ISFJ-->
+    <string name="isfj_sifat">Penuh pertimbangan, hati-hati, teliti dan akurat. Serius, tenang, stabil namun sensitif. Ramah, perhatian pada perasaan dan kebutuhan orang lain, setia, kooperatif, pendengar yang baik. Punya kemampuan mengorganisasi, detail, teliti, sangat bertanggungjawab dan bisa diandalkan.</string>
+    <string name="isfj_saranp">Lihat lebih dalam, lebih antusias, dan lebih semangat. Belajarlah mengatakan AtidakA. Jangan menyenangkan semua orang atau Anda dianggap plin plan.  Jangan terjebak zona nyaman dan rutinitas. Cobalah hal baru. Ada banyak hal menyenangkan yang mungkin belum pernah Anda coba.</string>
+    <string name="isfj_saranf">Architect, Interior Designer, Perawat, Administratif, Designer, Child Care, Konselor, Back Office Manager, Penjaga Toko / Perpustakaan, Dunia Perhotelan.</string>
+    <string name="isfj_partner">ESFP atau ESTP</string>
+    <string name="isfj_ket">"Setia"</string>
+
+    <!-- ISTP-->
+    <string name="istp_sifat">Tenang, pendiam, cenderung kaku, dingin, hati-hati, penuh pertimbangan. Logis, rasional, kritis, obyektif, mampu mengesampingkan perasaan. Mampu menghadapi perubahan mendadak dengan cepat dan tenang. Percaya diri, tegas dan mampu menghadapi perbedaan maupun kritik. Mampu menganalisa, mengorganisir, dan mendelegasikan. Problem solver yang baik terutama untuk masalah teknis dan keadaan mendadak.</string>
+    <string name="istp_saranp">Observasilah kehidupan sosial, apa yang membuat orang marah, cinta, senang, termotivasi dan terapkan pada hubungan Anda. Belajarlah untuk mengenali perasaan Anda dan mengekspresikannya. Jadilah orang yang lebih terbuka, keluar dari zona nyaman, eksplorasi ide baru, dan berdiskusi dengan orang lain. Jangan mencari-cari kesalahan orang hanya untuk menyelesaikan masalahnya. Jangan menyimpan informasi yang harusnya dibagi dan belajarlah mempercayakan tanggungjawab pada orang lain.</string>
+    <string name="istp_saranf">Polisi, Ahli Forensik, Programmer, Ahli Komputer, System Analyst, Teknisi, Insinyur, Mekanik, Pilot, Atlit, Entrepreneur</string>
+    <string name="istp_partner">ESTJ atau ENTJ</string>
+    <string name="istp_ket">"Pragmatis"</string>
+
+    <!-- ISFP-->
+    <string name="isfp_sifat">Berpikiran simpel dan praktis, fleksibel, sensitif, ramah, tidak menonjolkan diri, rendah hati pada kemampuannya. Menghindari konflik, tidak memaksakan pendapat atau nilai-nilainya pada orang lain. Biasanya tidak mau memimpin tetapi menjadi pengikut dan pelaksana yang setia. Seringkali santai menyelesaikan sesuatu, karena sangat menikmati apa yang terjadi saat ini. Menunjukkan perhatian lebih banyak melalui tindakan dibandingkan kata-kata.</string>
+    <string name="isfp_saranp">Jangan takut pada penolakan dan konflik. Anda tidak perlu menyenangkan semua orang. Cobalah untuk mulai memikirkan dampak jangka panjang dari keputusan-keputusan kecil di hari ini. Asah dan kembangkan sisi kreatifitas dan seni dalam diri Anda sebagai modal bagus dalam diri Anda. Cobalah untuk lebih terbuka dan mengekspresikan perasaan Anda.</string>
+    <string name="isfp_saranf">Seniman, Designer, Pekerja Sosial, Konselor, Psikolog, Guru, Aktor, Bidang Hospitality</string>
+    <string name="isfp_partner">ESFJ atau ENFJ</string>
+    <string name="isfp_ket">"Artistik"</string>
+
+    <!-- INFJ-->
+    <string name="infj_sifat">Perhatian, empati, sensitif dan berkomitmen terhadap sebuah hubungan. Sukses karena ketekunan, originalitas dan keinginan kuat untuk melakukan apa saja yang diperlukan termasuk memberikan yg terbaik dalam pekerjaan. Idealis, perfeksionis, memegang teguh prinsip. Visioner, penuh ide, kreatif, suka merenung dan inspiring. Biasanya diikuti dan dihormati karena kejelasan visi serta dedikasi pada hal-hal baik.</string>
+    <string name="infj_saranp">Seimbangkan cara pandang Anda. Jangan hanya melihat sisi negatif dan resiko. Namun, lihatlah sisi positif dan peluangnya. Bersabarlah, jangan mudah marah dan menyalahkan orang lain atau situasi. Rileks dan jangan terus menerus berfikir atau menyelesaikan tanggungjawab.</string>
+    <string name="infj_saranf">Pengajar, Psikolog, Dokter, Konselor, Pekerja Sosial, Fotografer, Seniman, Designer, Child Care.</string>
+    <string name="infj_partner">ESFP atau ESTP</string>
+    <string name="infj_ket">"Reflektif"</string>
+
+    <!-- INTJ-->
+    <string name="intj_sifat">Visioner, punya perencanaan praktis, dan biasanya memiliki ide-ide original serta dorongan kuat untuk mencapainya. Mandiri dan percaya diri. Punya kemampuan analisa yang bagus serta menyederhanakan sesuatu yang rumit dan abstrak menjadi sesuatu yang praktis, mudah difahami dan dipraktekkan. Skeptis, kritis, logis, menentukan (determinatif) dan kadang keras kepala. Punya keinginan untuk berkembang serta selalu ingin lebih maju dari orang lain. Kritik dan konflik tidak menjadi masalah berarti.</string>
+    <string name="intj_saranp">Belajarlah mengungkapkan emosi dan perasaan Anda. Cobalah untuk lebih terbuka pada dunia luar, banyak bergaul, banyak belajar, banyak membaca, mengunjungi banyak tempat, eksplorasi hal baru, dan memperluas wawasan. Hindari perdebatan tidak penting. Belajarlah untuk berempati, memberi perhatian dan lebih peka terhadap orang lain.</string>
+    <string name="intj_saranf">Peneliti, Ilmuwan, Insinyur, Teknisi, Pengajar, Profesor, Dokter, Research dan Development, Business Analyst, System Analyst, Pengacara, Hakim, Programmers, Posisi Strategis dalam organisasi.</string>
+    <string name="intj_partner">ENFP atau ENTP</string>
+    <string name="intj_ket">"Independen"</string>
+
+    <!-- INFP-->
+    <string name="infp_sifat">Sangat perhatian dan peka dengan perasaan orang lain. Penuh dengan antusiasme dan kesetiaan, tapi biasanya hanya untuk orang dekat. Peduli pada banyak hal. Cenderung mengambil terlalu banyak dan menyelesaikan sebagian. Cenderung idealis dan perfeksionis. Berpikir win-win solution, mempercayai dan mengoptimalkan orang lain.</string>
+    <string name="infp_saranp">Belajarlah menghadapi kritik. Jika baik maka kritik itu bisa membangun Anda, namun jika tidak abaikan saja. Jangan ragu pula untuk bertanya dan minta saran. Belajarlah untuk bersikap tegas. Jangan selalu berperasaan dan menyenangkan orang dengan tindakan baik. Bertindak baik itu berbeda dengan bertindak benar. Jangan terlalu menyalahkan diri dan bersikap terlalu keras pada diri sendiri. Kegagalan adalah hal biasa dan semua orang pernah mengalaminya. Jangan terlalu baik pada orang lain tapi melupakan diri sendiri. Anda juga punya tanggungjawab untuk berbuat baik pada diri sendiri.</string>
+    <string name="infp_saranf">Penulis, Sastrawan, Konselor, Psikolog, Pengajar, Seniman, Rohaniawan, Bidang Hospitality</string>
+    <string name="infp_partner">ENFJ atau ESFJ</string>
+    <string name="infp_ket">"Idealis"</string>
+
+    <!-- INTP-->
+    <string name="intp_sifat">Sangat menghargai intelektualitas dan pengetahuan. Menikmati hal-hal teoritis dan ilmiah. Senang memecahkan masalah dengan logika dan analisa. Diam dan menahan diri. Lebih suka bekerja sendiri. Cenderung kritis, skeptis, mudah curiga dan pesimis. Tidak suka memimpin dan bisa menjadi pengikut yang tidak banyak menuntut. Cenderung memiliki minat yang jelas. Membutuhkan karir dimana minatnya bisa berkembang dan bermanfaat. Jika menemukan sesuatu yang menarik minatnya, ia akan sangat serius dan antusias menekuninya.</string>
+    <string name="intp_saranp">Belajarlah membangun hubungan dengan orang lain. Belajar berempati, mendengar aktif, memberi perhatian dan bertukar pendapat. Relaks. Jangan terlalu banyak berfikir. Nikmati hidup Anda tanpa harus bertanya mengapa dan bagaimana. Cobalah menemukan satu ide, merencanakan dan mewujudkannya. Jangan terlalu sering berganti-ganti ide tetapi tidak satupun yang terwujud.</string>
+    <string name="intp_saranf">Ilmuwan, Fotografer, Programmer, Ahli komputer, System Analyst, Penulis Buku Teknis, Ahli Forensik, Jaksa, Pengacara, Teknisi</string>
+    <string name="intp_partner">ENTJ atau ESTJ</string>
+    <string name="intp_ket">"Konseptual"</string>
+
+    <!-- ESTP-->
+    <string name="estp_sifat">Spontan, Aktif, Enerjik, Cekatan, Cepat, Sigap, Antusias, Fun dan penuh variasi. Komunikator, asertif, to the point, ceplas-ceplos, berkarisma, punya interpersonal skill yang baik. Baik dalam pemecahan masalah langsung di tempat. Mampu menghadapi masalah, konflik dan kritik. Tidak khawatir, menikmati apapun yang terjadi. Cenderung untuk menyukai sesuatu yang mekanistis, kegiatan bersama dan olahraga. Mudah beradaptasi, toleran, pada umumnya konservatif tentang nilai-nilai. Tidak suka penjelasan terlalu panjang. Paling baik dalam hal-hal nyata yang dapat dilakukan.</string>
+    <string name="estp_saranp">Belajarlah memahami perasaan dan pemikiran orang lain terutama saat bicara dengan mereka. Belajarlah untuk sabar, menikmati proses, tidak semua hal bisa dicapai dengan cepat. Sesekali luangkan waktu untuk merenung dan merencanakan masa depan Anda. Cobalah untuk mencatat pengamatan-pengamatan Anda termasuk detailnya.</string>
+    <string name="estp_saranf">Marketing, Sales, Polisi, Entrepreneur, Pialang Saham, Technical Support</string>
+    <string name="estp_partner">ISFJ atau ISTJ</string>
+    <string name="estp_ket">"Spontan"</string>
+
+    <!-- ESFP-->
+    <string name="esfp_sifat">Outgoing, easygoing, mudah berteman, bersahabat, sangat sosial, ramah, hangat, dan menyenangkan. Optimis, ceria, antusias, fun, menghibur, suka menjadi perhatian. Punya interpersonal skill yang baik, murah hati, mudah simpatik dan mengenali perasaan orang lain. Menghindari konflik dan menjaga keharmonisan suatu hubungan. Mengetahui apa yang terjadi di sekelilingnya dan ikut serta dalam kegiatan tersebut. Sangat baik dalam keadaan yang membutuhkan common sense, tindakan cepat dan ketrampilan praktis.</string>
+    <string name="esfp_saranp">Jangan terburu-buru dalam mengambil keputusan. Belajarlah untuk fokus dan tidak mudah berubah-ubah terutama untuk hal yang penting. Jangan menyenangkan semua orang. Begitu pula sebaliknya, tidak semua orang bisa menyenangkan Anda. Belajarlah menghadapi kritik dan konflik. Jangan lari. Anda punya kecenderungan meterialistis. Hati-hati, tidak semua hal bisa diukur dengan materi ataupun uang.</string>
+    <string name="esfp_saranf">Entertainer, Seniman, Marketing, Konselor, Designer, Tour Guide, Bidang Anakanak, Bidang Hospitality</string>
+    <string name="esfp_partner">ISTJ atau ISFJ</string>
+    <string name="esfp_ket">"Murah Hati"</string>
+
+    <!-- ENFP-->
+    <string name="enfp_sifat">Ramah, hangat, enerjik, optimis, antusias, semangat tinggi, fun. Imaginatif, penuh ide, kreatif, inovatif. Mampu beradaptasi dengan beragam situasi dan perubahan. Pandai berkomunikasi, senang bersosialisasi dan membawa suasana positif. Mudah membaca perasaan dan kebutuhan orang lain.</string>
+    <string name="enfp_saranp">Belajarlah untuk fokus, disiplin, tegas dan konsisten. Belajarlah untuk menghadapi konflik dan kritik. Pikirkan kebutuhan diri sendiri. Jangan melupakannya karena terlalu peduli pada kebutuhan orang lain. Jangan terlalu boros. Belajarlah untuk mengelola keuangan sedikit demi sedikit.</string>
+    <string name="enfp_saranf">Konselor, Psikolog, Entertainer, Pengajar, Motivator, Presenter, Reporter, MC, Seniman, Hospitality</string>
+    <string name="enfp_partner">INTJ atau INFJ</string>
+    <string name="enfp_ket">"Optimis"</string>
+
+
+    <!-- ENTP-->
+    <string name="entp_sifat">Gesit, kreatif, inovatif, cerdik, logis, baik dalam banyak hal. Banyak bicara dan punya kemampuan debat yang baik. Bisa berargumentasi untuk enang-senang saja tanpa merasa bersalah. Fleksibel. Punya banyak cara untuk memecahkan masalah dan tantangan. Kurang konsisten. Cenderung untuk melakukan hal baru yang menarik hati setelah melakukan sesuatu yang lain. Punya keinginan kuat untuk mengembangkan diri.</string>
+    <string name="entp_saranp">Cobalah untuk win-win solution. Jangan ingin menang sendiri. Belajarlah untuk disiplin dan konsisten. Hindari perdebatan tidak penting. Belajarlah untuk sedikit waspada. Seimbangkan cara pandang Anda agar tidak terlalu optimis dan mengambil resiko yang tidak realistis. Belajarlah untuk memberi perhatian pada perasaan orang lain.</string>
+    <string name="entp_saranf">Pengacara, Psikolog, Konsultan, Ilmuwan, Aktor,Marketing, Programmer, Fotografer</string>
+    <string name="entp_partner">INFJ atau INTJ</string>
+    <string name="entp_ket">"Innovatif - Kreatif"</string>
+
+
+    <!-- ESTJ-->
+    <string name="estj_sifat">Praktis, realistis, berpegang pada fakta, dengan dorongan alamiah untuk bisnis dan mekanistis. Sangat sistematis, procedural dan terencana. Disiplin, on time dan pekerja keras. Konservatif dan cenderung kaku. Tidak tertarik pada subject yang tidak berguna baginya, tapi dapat menyesuaikan diri jika diperlukan. Senang mengorganisir sesuatu. Bisa menjadi administrator yang baik jika mereka ingat untuk memperhatikan perasaan dan perspektif orang lain.</string>
+    <string name="estj_saranp">Kurangi keinginan untuk mengontrol dan memaksa orang lain. Belajarlah untuk mengontrol emosi dan amarah Anda. Cobalah untuk introspeksi diri dan meluangkan waktu sejenak untuk merenung. Belajarlah untuk lebih sabar dan low profile. Belajarlah untuk memahami orang lain.</string>
+    <string name="estj_saranf">Militer, Manajer, Polisi, Hakim, Pengacara, Guru, Sales, Auditor, Akuntan, System Analyst</string>
+    <string name="estj_partner">ISTP atau INTP</string>
+    <string name="estj_ket">"Konservatif - Disiplin"</string>
+
+
+    <!-- ESFJ-->
+    <string name="esfj_sifat">Hangat, banyak bicara, populer, dilahirkan untuk bekerjasama, suportif dan anggota kelompok yang aktif. Membutuhkan keseimbangan dan baik dalam menciptakan harmoni. Selalu melakukan sesuatu yang manis bagi orang lain. Kerja dengan baik dalam situasi yang mendukung dan memujinya. Santai, easy going, sederhana, tidak berfikir panjang. Teliti dan rajin merawat apa yang ia miliki.</string>
+    <string name="esfj_saranp">Jangan mengorbankan diri hanya untuk menyenangkan orang lain. Jangan mengukur harga diri Anda dari perlakuan, penghargaan dan pujian orang lain. Mintalah pertimbangan orang lain dalam mengambil keputusan. Belajarlah untuk lebih tegas. Terima tanggungjawab hidup dan belajarlah untuk lebih dewasa. Jangan mengasihani diri sendiri. Hadapi kritik dan konflik, jangan lari.</string>
+    <string name="esfj_saranf">Perencana Keuangan, Perawat, Guru, Bidang anak-anak, Konselor, Administratif, Hospitality</string>
+    <string name="esfj_partner">ISFP atau INFP</string>
+    <string name="esfj_ket">"Harmonis"</string>
+
+    <!-- ENFJ-->
+    <string name="enfj_sifat">Kreatif, imajinatif, peka, sensitive, loyal. Pada umumnya peduli pada apa kata orang atau apa yang orang lain inginkan dan cenderung melakukan sesuatu dengan memperhatikan perasaan orang lain. Pandai bergaul, meyakinkan, ramah, fun, populer, simpatik. Responsif pada kritik dan pujian. Menyukai variasi dan tantangan baru. Butuh apresiasi dan penerimaan.</string>
+    <string name="enfj_saranp">Jangan mengorbankan diri hanya untuk menyenangkan orang lain. Jangan mengukur harga diri Anda dari perlakuan orang lain. Jangan mudah kecewa jika mereka tidak seperti yang Anda inginkan. Belajarlah untuk tegas dan mengambil keputusan. Menghadapi kritik dan konflik. Jangan terlalu bersikap keras terhadap diri sendiri.</string>
+    <string name="enfj_saranf">Konsultan, Psikolog, Konselor, Pengajar, Marketing, HRD, Event Coordinator, Entertainer, Penulis, Motivator</string>
+    <string name="enfj_partner">INFP atau ISFP</string>
+    <string name="enfj_ket">"Meyakinkan"</string>
+
+    <!-- ENTJ-->
+    <string name="entj_sifat">Tegas, asertif, to the point, jujur terus terang, obyektif, kritis, dan punya standard tinggi. Dominan, kuat kemauannya, perfeksionis dan kompetitif. Tangguh, disiplin, dan sangat menghargai komitmen. Cenderung menutupi perasaan dan menyembunyikan kelemahan. Berkarisma, komunikasi baik, mampu menggerakkan orang. Berbakat pemimpin.</string>
+    <string name="entj_saranp">Belajarlah untuk relaks. Tidak perlu perfeksionis dan selalu kompetitif dengan semua orang. Ungkapkan perasaan Anda. Menyatakan perasaan bukanlah kelemahan. Belajarlah mengelola emosi Anda. Jangan mudah marah. Belajarlah untuk menghargai dan mengapresiasi orang lain. Jangan terlalu arogan dan menganggap remeh orang lain. Lihat sisi positifnya. Jangan hanya melihat benar dan salah saja.</string>
+    <string name="entj_saranf">Entrepreneur, Pengacara, Hakim, Konsultan, Pemimpin Organisasi, Business analyst, Bidang Finansial</string>
+    <string name="entj_partner">INTP atau ISTP</string>
+    <string name="entj_ket">"Pemimpin Alami"</string>
+    <string name="yourPersona">Kepribadian Anda Adalah:</string>
+    <string name="character">Sifat</string>
+    <string name="buildAdvice">Saran Pengembangan Diri</string>
+    <string name="profAdvice">Saran Profesi</string>
+    <string name="partner">Partner atau pasangan alami</string>
+    <string name="shareWorld">Bagikan Hasilnya Ke Seluruh Dunia</string>
+    <string name="youare">Kamu Adalah</string>
+    <string name="great">Hebat!</string>
+    <string name="crtPos">Tes kecerdasan sederhana ini menunjukkan bahwa anda adalah seorang pemikir kognitif. Maka, secara umum anda mampu mengaktifkan sistem kognitif anda, dan mampu mengendalikan alam sadar dan alam bawah sadar anda. Anda mampu mengambil keputusan dan memperhitungkan masalah melalui pendakatan-pendekatan yang analitis. Kalau anda masih penasaran, silahkan baca tulisan Dr. Frederick untuk penjelasan lebih lengkap :)</string>
+    <string name="crtNo">Tes kecerdasan sederhana ini menunjukkan bahwa anda adalah seorang pemikir Intuitif. Maka, secara umum anda mengalami sedikit gangguan dalam mengaktifkan sistem kognitif anda, dan malah mengaktifkan sistem intuisi anda. Beberapa keputusan yang anda ambil bisa jadi karena sebuah intuisi semata, bukan karena perhitungan yang analogis. Tentu anda berani, karena cepat mengambil keputusan, tapi memperhitungkan keputusan tidak ada salahnya juga bukan? Kalau anda masih penasaran, silahkan baca tulisan Dr. Frederick untuk penjelasan lebih lengkap :)</string>
+    <string name="cogThinker">Pemikir Kognitif</string>
+    <string name="intuiThinker">Pemikir Intuitif</string>
+    <string name="curious">Penasaran dengan Jawabannya?</string>
+    <string name="kunciJawabanCRT">jawabannya sebenarnya sederhana, soal nomor satu jawabannya 5, soal nomor dua jawabannya 5, dan soal nomor 3 jawabannya 47. Sudah paham maksudnya? :)</string>
+    <string name="corrAnswer">Jawaban Benar:</string>
+    <string name="haveFun">Apakah anda Bersenang-senang? Apakah anda mendapat pengetahuan baru? :)</string>
+    <string name="bahasa">Aplikasi ini memiliki 2 bahasa, yaitu bahasa Inggris dan Indonesia. Untuk mengubahnya, silahkan ubah preferensi bahasa di pengaturan ponsel Android anda, dan secara otomatis bahasa aplikasi pun akan berubah. Keren kan :)</string>
+    <string name="multiLang">Mendukung Multi Bahasa</string>
+    <string name="Lang">Bahasa Indonesia</string>
+    <string name="about">Tentang App Ini</string>
+    <string name="contact">Hubungi Kami</string>
+    <string name="isiAbout1">MineMind+ adalah final project untuk event \'Indonesia Android Kejar\'. Aplikasi ini didesain dan dibuat oleh peserta IAK yaitu: Aldo Suhartono Putra. Aplikasi ini adalah sebuah multi kuis, yang terdiri dari kuis kecerdasan, kuis kepribadian, dan kuis asik.
+    \n\n Aplikasi ini dapat dibuat karena dukungan dari banyak pihak. Untuk itu, pembuat ingin berterimakasih khususnya kepada: Google, Indonesia Android Kejar, Udacity, StackOverFlow.com (terimakasih sudah menyelesaikan banyak error saya), Github (terimakasih untuk paolorotolo yang saya gunakan buat aplikasi saya AppIntro). Dan tentunya terimakasih yang spesial untuk Fasilitator Muhammad Viga Farizan yang telah mentransfer ilmunya. :)
+    \n\n Untuk saran dan masukan, atau untuk menghubungi pembuat (Aldo Suhartono Putra) silahkan tekan tombol di bawah ini. Selamat Bersenang-senang dengan MineMind+ :)</string>
+    <string name="order_summary_email_subject">Saran dan Masukan untuk MineMind+ App</string>
+    <string name="app_intro">Selamat Datang</string>
+    <string name="resultMC">Saya baru saja menyelesaikan Kuis Asik, saya mendapat pengetahuan baru tentang otak kita, ayo cek juga dan selamat bersenang-senang :) @MineMindApp #MineMindApp</string>
+    <string name="resultIQ1">Saya baru saja menyelesaikan tes kecerdasan CRT dan mendapat hasil sebagai</string>
+    <string name="resultMBTI1">Saya baru saja menyelesaikan tes kepribadian MBTI dan mendapat hasil sebagai</string>
+    <string name="resultRW1">\"Saya baru saja menyelesaikan Tantangan Kuis Asik ‘Benar atau Salah’ dari MineMind+, skor saya\"</string>
+    <string name="resultIQ2">, Ayo coba juga @MineMindApp #MineMindApp</string>
+    <string name="resultMBTI2">, Ayo coba juga @MineMindApp #MineMindApp</string>
+    <string name="resultRW2">" berapa skormu? @MineMindApp #MineMindApp"</string>
+    <string name="shareUsing">Bagikan Menggunkaan:</string>
+    <string name="slide1a">Hello</string>
+    <string name="slide1b">Selamat datang di aplikasi MineMind+
+        \n \n Kita akan memandu anda supaya anda dapat bersenang-senang bersama aplikasi ini!</string>
+    <string name="slide2a">Jawab, Jawab dan Belajar</string>
+    <string name="slide2b">MineMind+ memiliki 3 kelompok kuis, yaitu tes Kecerdasan, tes Kepribadian, dan Tes Asik. Setiap tes disusun berdasarkan standar tertentu yang telah umum digunakan. Dari ketiga tes ini, anda dapat belajar, menambah pengetahuan, sekaligus mengetahui diri anda dan bagaimana cara otak anda bekerja lebih jauh lagi. Wow Hebat!</string>
+    <string name="slide3a">Multi Bahasa</string>
+    <string name="slide3b">MineMind+ dibuat sedemikian rupa untuk mendukung fitur lokalisasi bahasa Android, anda hanya perlu merubah preferensi bahasa anda di pengaturan ponsel anda, dan bahasa dalam aplikasi ini akan berubah. Saat ini MineMind+ mendukung bahasa Inggris dan Indonesia. Thanks to Android Localization Features :)</string>
+    <string name="slide4a">Share and Push</string>
+    <string name="slide4b">Bagikan hasil test anda ke seluruh dunia! Setiap hasil test dapat anda bagikan ke berbagai aplikasi (Thanks to Android Intent). Selain itu, aplikasi ini dilengkapi dengan push otomatis untuk siapa saja yang melakukan tweet ke akun Twitter @MineMindApp dan hashtag #MineMindApp (Thanks to Pushwoosh Service). Jadi anda bisa berbagi lebih banyak dengan dunia. Tidak percaya aplikasi ini bisa push? Silahkan coba saja sendiri! (Fitur uji coba)</string>
+    <string name="slide5a">From IAK For You</string>
+    <string name="slide5b">MineMind+ adalah project final acara ‘Indonesia Android Kejar’ yang dibuat oleh Aldo Suhartono Putra, dan fasilitatori oleh Muhammad Viga Farizan. Namun, meskipun ini hanya project final, pembuat mencoba membuat yang terbaik loh buat anda. Oia, kalau anda suka aplikasi ini jangan lupa beritahu teman teman anda ya. Selamat bersenang-senang :)</string>
+</resources>

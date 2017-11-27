@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aldhosutra.minemind.IQQuiz"
+    android:background="#e91e63">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_home"
+        android:layout_alignParentRight="true"
+        android:tint="#ffffff"
+        android:padding="8dp"
+        android:onClick="sureHome"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qNo"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:paddingTop="24dp"
+        android:id="@+id/judul1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/judul1"
+        android:id="@+id/layCount"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/noSoal"
+            android:textSize="32sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" / "
+            android:textSize="32sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:id="@+id/sumSoal"
+            android:textSize="32sp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layCount"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:paddingTop="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answerThese"
+            android:textAllCaps="true"
+            android:id="@+id/ketJawaban"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="soal"
+            android:textSize="16sp"
+            android:layout_below="@id/ketJawaban"
+            android:padding="16dp"
+            android:background="#ffffff"
+            android:textColor="#e91e63"
+            android:textAlignment="center"
+            android:id="@+id/soalCRT"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/soalCRT"
+            android:id="@+id/layAnswer"
+            android:background="@color/white"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yourAnswer"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="@color/colorMaterialPink"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/soalCRT"
+                android:textColor="@color/colorMaterialPink"
+                android:backgroundTint="@color/colorMaterialPink"
+                android:id="@+id/jawabanSoal"
+                android:textSize="32sp"
+                android:layout_marginRight="16dp"
+                android:inputType="number"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="#ffc107"
+            android:layout_below="@id/layAnswer"
+            android:id="@+id/btnSubmit"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

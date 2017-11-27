@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aldhosutra.minemind.RWQuiz"
+    android:background="#e91e63">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_home"
+        android:layout_alignParentRight="true"
+        android:tint="#ffffff"
+        android:padding="8dp"
+        android:onClick="sureHome"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qNo"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:paddingTop="24dp"
+        android:id="@+id/judul1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/judul1"
+        android:id="@+id/layCount"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/noSoal"
+            android:textSize="32sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" / "
+            android:textSize="32sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50"
+            android:id="@+id/sumSoal"
+            android:textSize="32sp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layCount"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:paddingTop="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/correctAnswer"
+            android:textAllCaps="true"
+            android:id="@+id/ketJawaban"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:textColor="#ffffff"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="soal"
+            android:textSize="16sp"
+            android:layout_below="@id/ketJawaban"
+            android:padding="16dp"
+            android:background="#ffffff"
+            android:textColor="#e91e63"
+            android:textAlignment="center"
+            android:id="@+id/soalRW"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/soalRW"
+            android:orientation="horizontal"
+            android:background="#ffc107"
+            android:id="@+id/lay2Button">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/right"
+                android:background="#ffc107"
+                android:id="@+id/btnBenar"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/wrong"
+                android:background="#ffc107"
+                android:id="@+id/btnSalah"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffc107"
+            android:layout_below="@id/soalRW"
+            android:text="@string/soundsInteresting"
+            android:visibility="gone"
+            android:id="@+id/okButton"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCORE"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:id="@+id/txtScr"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:id="@+id/score"
+            android:layout_below="@id/txtScr"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
